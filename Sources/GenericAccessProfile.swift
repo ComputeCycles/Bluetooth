@@ -405,7 +405,7 @@ internal struct Bit16UUIDList {
     
     public var data: Data {
         
-        return uuids.reduce(Data(), { $0.0 + [$0.1.littleEndian.bytes.0, $0.1.littleEndian.bytes.1] })
+        return uuids.reduce(Data(), { $0 + [$1.littleEndian.bytes.0, $1.littleEndian.bytes.1] })
     }
 }
 
@@ -555,7 +555,7 @@ public struct GAPDataElement {
     
     public init(_ data: GAPData) {
         
-        self.type = type(of: data).dataType
+        self.type = Swift.type(of: data).dataType
         self.value = data.data
         
         assert(value.count <= Int(UInt8.max))

@@ -30,7 +30,7 @@ final class BluetoothUUIDTests: XCTestCase {
     #if os(macOS) && swift(>=3.2)
     func testGenerateDefinedUUIDExtension() {
         
-        let uuids = definedUUIDs.sorted(by: { $0.0.key < $0.1.key })
+        let uuids = definedUUIDs.sorted(by: { $0.key < $1.key })
         
         var generatedCode = ""
         
