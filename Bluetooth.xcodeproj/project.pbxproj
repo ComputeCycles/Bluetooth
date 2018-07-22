@@ -1,0 +1,1849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Bluetooth::BluetoothPackageTests::ProductTarget" /* BluetoothPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_708 /* Build configuration list for PBXAggregateTarget "BluetoothPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_711 /* PBXTargetDependency */,
+			);
+			name = BluetoothPackageTests;
+			productName = BluetoothPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_372 /* ATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ATT.swift */; };
+		OBJ_373 /* ATTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ATTConnection.swift */; };
+		OBJ_374 /* ATTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ATTError.swift */; };
+		OBJ_375 /* ATTErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ATTErrorResponse.swift */; };
+		OBJ_376 /* ATTExecuteWriteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ATTExecuteWriteRequest.swift */; };
+		OBJ_377 /* ATTExecuteWriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ATTExecuteWriteResponse.swift */; };
+		OBJ_378 /* ATTFindByTypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ATTFindByTypeRequest.swift */; };
+		OBJ_379 /* ATTFindByTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ATTFindByTypeResponse.swift */; };
+		OBJ_380 /* ATTFindInformationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ATTFindInformationRequest.swift */; };
+		OBJ_381 /* ATTFindInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ATTFindInformationResponse.swift */; };
+		OBJ_382 /* ATTHandleValueConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ATTHandleValueConfirmation.swift */; };
+		OBJ_383 /* ATTHandleValueIndication.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ATTHandleValueIndication.swift */; };
+		OBJ_384 /* ATTHandleValueNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ATTHandleValueNotification.swift */; };
+		OBJ_385 /* ATTMaximumTransmissionUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ATTMaximumTransmissionUnit.swift */; };
+		OBJ_386 /* ATTMaximumTransmissionUnitRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ATTMaximumTransmissionUnitRequest.swift */; };
+		OBJ_387 /* ATTMaximumTransmissionUnitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ATTMaximumTransmissionUnitResponse.swift */; };
+		OBJ_388 /* ATTPrepareWriteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ATTPrepareWriteRequest.swift */; };
+		OBJ_389 /* ATTPrepareWriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ATTPrepareWriteResponse.swift */; };
+		OBJ_390 /* ATTProtocolDataUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ATTProtocolDataUnit.swift */; };
+		OBJ_391 /* ATTReadBlobRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ATTReadBlobRequest.swift */; };
+		OBJ_392 /* ATTReadBlobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ATTReadBlobResponse.swift */; };
+		OBJ_393 /* ATTReadByGroupTypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ATTReadByGroupTypeRequest.swift */; };
+		OBJ_394 /* ATTReadByGroupTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ATTReadByGroupTypeResponse.swift */; };
+		OBJ_395 /* ATTReadByTypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ATTReadByTypeRequest.swift */; };
+		OBJ_396 /* ATTReadByTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ATTReadByTypeResponse.swift */; };
+		OBJ_397 /* ATTReadMultipleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* ATTReadMultipleRequest.swift */; };
+		OBJ_398 /* ATTReadMultipleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ATTReadMultipleResponse.swift */; };
+		OBJ_399 /* ATTReadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ATTReadRequest.swift */; };
+		OBJ_400 /* ATTReadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ATTReadResponse.swift */; };
+		OBJ_401 /* ATTSignedWriteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ATTSignedWriteCommand.swift */; };
+		OBJ_402 /* ATTWriteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ATTWriteCommand.swift */; };
+		OBJ_403 /* ATTWriteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ATTWriteRequest.swift */; };
+		OBJ_404 /* ATTWriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ATTWriteResponse.swift */; };
+		OBJ_405 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Address.swift */; };
+		OBJ_406 /* AdvertisingChannelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AdvertisingChannelHeader.swift */; };
+		OBJ_407 /* AdvertisingInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* AdvertisingInterval.swift */; };
+		OBJ_408 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Array.swift */; };
+		OBJ_409 /* BitMaskOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* BitMaskOption.swift */; };
+		OBJ_410 /* BluetoothHostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* BluetoothHostController.swift */; };
+		OBJ_411 /* BluetoothUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* BluetoothUUID.swift */; };
+		OBJ_412 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Bool.swift */; };
+		OBJ_413 /* ByteSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* ByteSwap.swift */; };
+		OBJ_414 /* ByteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ByteValue.swift */; };
+		OBJ_415 /* ClassOfDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ClassOfDevice.swift */; };
+		OBJ_416 /* CompanyIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* CompanyIdentifier.swift */; };
+		OBJ_417 /* CompanyIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CompanyIdentifierExtension.swift */; };
+		OBJ_418 /* ConnectionAcceptTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ConnectionAcceptTimeout.swift */; };
+		OBJ_419 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Data.swift */; };
+		OBJ_420 /* DefinedCompanies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* DefinedCompanies.swift */; };
+		OBJ_421 /* DefinedUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* DefinedUUID.swift */; };
+		OBJ_422 /* DefinedUUIDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* DefinedUUIDExtension.swift */; };
+		OBJ_423 /* GAP3DInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* GAP3DInformation.swift */; };
+		OBJ_424 /* GAPAdvertisingInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* GAPAdvertisingInterval.swift */; };
+		OBJ_425 /* GAPAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* GAPAppearance.swift */; };
+		OBJ_426 /* GAPAppearanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* GAPAppearanceData.swift */; };
+		OBJ_427 /* GAPChannelMapUpdateIndication.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* GAPChannelMapUpdateIndication.swift */; };
+		OBJ_428 /* GAPClassOfDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* GAPClassOfDevice.swift */; };
+		OBJ_429 /* GAPCompleteListOf128BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* GAPCompleteListOf128BitServiceClassUUIDs.swift */; };
+		OBJ_430 /* GAPCompleteListOf16BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* GAPCompleteListOf16BitServiceClassUUIDs.swift */; };
+		OBJ_431 /* GAPCompleteListOf32BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* GAPCompleteListOf32BitServiceClassUUIDs.swift */; };
+		OBJ_432 /* GAPCompleteLocalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* GAPCompleteLocalName.swift */; };
+		OBJ_433 /* GAPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* GAPData.swift */; };
+		OBJ_434 /* GAPDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* GAPDataType.swift */; };
+		OBJ_435 /* GAPFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* GAPFlags.swift */; };
+		OBJ_436 /* GAPIncompleteListOf128BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* GAPIncompleteListOf128BitServiceClassUUIDs.swift */; };
+		OBJ_437 /* GAPIncompleteListOf16BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* GAPIncompleteListOf16BitServiceClassUUIDs.swift */; };
+		OBJ_438 /* GAPIncompleteListOf32BitServiceClassUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* GAPIncompleteListOf32BitServiceClassUUIDs.swift */; };
+		OBJ_439 /* GAPIndoorPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* GAPIndoorPositioning.swift */; };
+		OBJ_440 /* GAPLEDeviceAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* GAPLEDeviceAddress.swift */; };
+		OBJ_441 /* GAPLERole.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* GAPLERole.swift */; };
+		OBJ_442 /* GAPLESecureConnectionsConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* GAPLESecureConnectionsConfirmation.swift */; };
+		OBJ_443 /* GAPLESecureConnectionsRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* GAPLESecureConnectionsRandom.swift */; };
+		OBJ_444 /* GAPLESupportedFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* GAPLESupportedFeatures.swift */; };
+		OBJ_445 /* GAPListOf128BitServiceSolicitationUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* GAPListOf128BitServiceSolicitationUUIDs.swift */; };
+		OBJ_446 /* GAPListOf16BitServiceSolicitationUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* GAPListOf16BitServiceSolicitationUUIDs.swift */; };
+		OBJ_447 /* GAPListOf32BitServiceSolicitationUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* GAPListOf32BitServiceSolicitationUUIDs.swift */; };
+		OBJ_448 /* GAPManufacturerSpecificData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* GAPManufacturerSpecificData.swift */; };
+		OBJ_449 /* GAPMeshBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* GAPMeshBeacon.swift */; };
+		OBJ_450 /* GAPMeshMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* GAPMeshMessage.swift */; };
+		OBJ_451 /* GAPPBADV.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* GAPPBADV.swift */; };
+		OBJ_452 /* GAPPublicTargetAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* GAPPublicTargetAddress.swift */; };
+		OBJ_453 /* GAPRandomTargetAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* GAPRandomTargetAddress.swift */; };
+		OBJ_454 /* GAPSecurityManagerOOBFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* GAPSecurityManagerOOBFlags.swift */; };
+		OBJ_455 /* GAPSecurityManagerTKValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* GAPSecurityManagerTKValue.swift */; };
+		OBJ_456 /* GAPServiceData128BitUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* GAPServiceData128BitUUID.swift */; };
+		OBJ_457 /* GAPServiceData16BitUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* GAPServiceData16BitUUID.swift */; };
+		OBJ_458 /* GAPServiceData32BitUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* GAPServiceData32BitUUID.swift */; };
+		OBJ_459 /* GAPShortLocalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* GAPShortLocalName.swift */; };
+		OBJ_460 /* GAPSimplePairingHashC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* GAPSimplePairingHashC.swift */; };
+		OBJ_461 /* GAPSimplePairingRandomizerR.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* GAPSimplePairingRandomizerR.swift */; };
+		OBJ_462 /* GAPSlaveConnectionIntervalRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* GAPSlaveConnectionIntervalRange.swift */; };
+		OBJ_463 /* GAPTransportDiscoveryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* GAPTransportDiscoveryData.swift */; };
+		OBJ_464 /* GAPTxPowerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* GAPTxPowerLevel.swift */; };
+		OBJ_465 /* GAPURI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* GAPURI.swift */; };
+		OBJ_466 /* GATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* GATT.swift */; };
+		OBJ_467 /* GATTAerobicHeartRateLowerLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* GATTAerobicHeartRateLowerLimit.swift */; };
+		OBJ_468 /* GATTAerobicHeartRateUpperLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* GATTAerobicHeartRateUpperLimit.swift */; };
+		OBJ_469 /* GATTAerobicThreshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* GATTAerobicThreshold.swift */; };
+		OBJ_470 /* GATTAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* GATTAge.swift */; };
+		OBJ_471 /* GATTAggregateFormatDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* GATTAggregateFormatDescriptor.swift */; };
+		OBJ_472 /* GATTAlertCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* GATTAlertCategory.swift */; };
+		OBJ_473 /* GATTAlertCategoryBitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* GATTAlertCategoryBitMask.swift */; };
+		OBJ_474 /* GATTAlertLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* GATTAlertLevel.swift */; };
+		OBJ_475 /* GATTAlertNotificationControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* GATTAlertNotificationControlPoint.swift */; };
+		OBJ_476 /* GATTAlertNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* GATTAlertNotificationService.swift */; };
+		OBJ_477 /* GATTAlertStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* GATTAlertStatus.swift */; };
+		OBJ_478 /* GATTAltitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* GATTAltitude.swift */; };
+		OBJ_479 /* GATTAnaerobicHeartRateLowerLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* GATTAnaerobicHeartRateLowerLimit.swift */; };
+		OBJ_480 /* GATTAnaerobicHeartRateUpperLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* GATTAnaerobicHeartRateUpperLimit.swift */; };
+		OBJ_481 /* GATTAnalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* GATTAnalog.swift */; };
+		OBJ_482 /* GATTAnalogOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* GATTAnalogOutput.swift */; };
+		OBJ_483 /* GATTAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* GATTAttributes.swift */; };
+		OBJ_484 /* GATTBarometricPressureTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* GATTBarometricPressureTrend.swift */; };
+		OBJ_485 /* GATTBatteryLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* GATTBatteryLevel.swift */; };
+		OBJ_486 /* GATTBatteryPowerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* GATTBatteryPowerState.swift */; };
+		OBJ_487 /* GATTBatteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* GATTBatteryService.swift */; };
+		OBJ_488 /* GATTBloodPressureFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* GATTBloodPressureFeature.swift */; };
+		OBJ_489 /* GATTBloodPressureManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* GATTBloodPressureManagement.swift */; };
+		OBJ_490 /* GATTBloodPressureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* GATTBloodPressureService.swift */; };
+		OBJ_491 /* GATTBodySensorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* GATTBodySensorLocation.swift */; };
+		OBJ_492 /* GATTBootKeyboardInputReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* GATTBootKeyboardInputReport.swift */; };
+		OBJ_493 /* GATTBootKeyboardOutputReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* GATTBootKeyboardOutputReport.swift */; };
+		OBJ_494 /* GATTBootMouseInputReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* GATTBootMouseInputReport.swift */; };
+		OBJ_495 /* GATTCGMSessionRunTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* GATTCGMSessionRunTime.swift */; };
+		OBJ_496 /* GATTCentralAddressResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* GATTCentralAddressResolution.swift */; };
+		OBJ_497 /* GATTCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* GATTCharacteristic.swift */; };
+		OBJ_498 /* GATTCharacteristicExtendedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* GATTCharacteristicExtendedProperties.swift */; };
+		OBJ_499 /* GATTCharacteristicFormatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* GATTCharacteristicFormatType.swift */; };
+		OBJ_500 /* GATTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* GATTClient.swift */; };
+		OBJ_501 /* GATTClientCharacteristicConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* GATTClientCharacteristicConfiguration.swift */; };
+		OBJ_502 /* GATTDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* GATTDatabase.swift */; };
+		OBJ_503 /* GATTDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* GATTDateTime.swift */; };
+		OBJ_504 /* GATTDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* GATTDescriptor.swift */; };
+		OBJ_505 /* GATTExternalReportReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* GATTExternalReportReference.swift */; };
+		OBJ_506 /* GATTFirmwareRevisionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* GATTFirmwareRevisionString.swift */; };
+		OBJ_507 /* GATTFormatDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* GATTFormatDescriptor.swift */; };
+		OBJ_508 /* GATTManufacturerNameString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* GATTManufacturerNameString.swift */; };
+		OBJ_509 /* GATTModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* GATTModelNumber.swift */; };
+		OBJ_510 /* GATTNewAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* GATTNewAlert.swift */; };
+		OBJ_511 /* GATTNumberOfDigitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* GATTNumberOfDigitals.swift */; };
+		OBJ_512 /* GATTPnPID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* GATTPnPID.swift */; };
+		OBJ_513 /* GATTProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* GATTProfile.swift */; };
+		OBJ_514 /* GATTReportReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* GATTReportReference.swift */; };
+		OBJ_515 /* GATTServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* GATTServer.swift */; };
+		OBJ_516 /* GATTServerCharacteristicConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* GATTServerCharacteristicConfiguration.swift */; };
+		OBJ_517 /* GATTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* GATTService.swift */; };
+		OBJ_518 /* GATTSoftwareRevisionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* GATTSoftwareRevisionString.swift */; };
+		OBJ_519 /* GATTSupportedNewAlertCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* GATTSupportedNewAlertCategory.swift */; };
+		OBJ_520 /* GATTSupportedUnreadAlertCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* GATTSupportedUnreadAlertCategory.swift */; };
+		OBJ_521 /* GATTSystemID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* GATTSystemID.swift */; };
+		OBJ_522 /* GATTTimeTriggerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* GATTTimeTriggerSetting.swift */; };
+		OBJ_523 /* GATTUnreadAlertStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* GATTUnreadAlertStatus.swift */; };
+		OBJ_524 /* GATTUserDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* GATTUserDescription.swift */; };
+		OBJ_525 /* HCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* HCI.swift */; };
+		OBJ_526 /* HCICommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* HCICommand.swift */; };
+		OBJ_527 /* HCICommandComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* HCICommandComplete.swift */; };
+		OBJ_528 /* HCICommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* HCICommandStatus.swift */; };
+		OBJ_529 /* HCICommandTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* HCICommandTimeout.swift */; };
+		OBJ_530 /* HCIEncryptionChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* HCIEncryptionChange.swift */; };
+		OBJ_531 /* HCIEncryptionKeyRefreshComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* HCIEncryptionKeyRefreshComplete.swift */; };
+		OBJ_532 /* HCIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* HCIError.swift */; };
+		OBJ_533 /* HCIEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* HCIEvent.swift */; };
+		OBJ_534 /* HCIGeneralEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* HCIGeneralEvent.swift */; };
+		OBJ_535 /* HCIHoldMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* HCIHoldMode.swift */; };
+		OBJ_536 /* HCIInquiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* HCIInquiry.swift */; };
+		OBJ_537 /* HCILEAddDeviceToPeriodicAdvertiserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* HCILEAddDeviceToPeriodicAdvertiserList.swift */; };
+		OBJ_538 /* HCILEAddDeviceToResolvingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* HCILEAddDeviceToResolvingList.swift */; };
+		OBJ_539 /* HCILEAddDeviceToWhiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* HCILEAddDeviceToWhiteList.swift */; };
+		OBJ_540 /* HCILEAdvertisingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* HCILEAdvertisingReport.swift */; };
+		OBJ_541 /* HCILEAdvertisingSetTerminated.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* HCILEAdvertisingSetTerminated.swift */; };
+		OBJ_542 /* HCILEChannelSelectionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* HCILEChannelSelectionAlgorithm.swift */; };
+		OBJ_543 /* HCILEConnectionComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* HCILEConnectionComplete.swift */; };
+		OBJ_544 /* HCILEConnectionUpdateComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* HCILEConnectionUpdateComplete.swift */; };
+		OBJ_545 /* HCILECreateConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* HCILECreateConnection.swift */; };
+		OBJ_546 /* HCILEDataLengthChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* HCILEDataLengthChange.swift */; };
+		OBJ_547 /* HCILEDirectedAdvertisingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* HCILEDirectedAdvertisingReport.swift */; };
+		OBJ_548 /* HCILEEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* HCILEEncrypt.swift */; };
+		OBJ_549 /* HCILEEnhancedConnectionComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* HCILEEnhancedConnectionComplete.swift */; };
+		OBJ_550 /* HCILEEnhancedReceiverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* HCILEEnhancedReceiverTest.swift */; };
+		OBJ_551 /* HCILEEnhancedTransmitterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* HCILEEnhancedTransmitterTest.swift */; };
+		OBJ_552 /* HCILEExtendedAdvertisingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* HCILEExtendedAdvertisingReport.swift */; };
+		OBJ_553 /* HCILEExtendedCreateConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* HCILEExtendedCreateConnection.swift */; };
+		OBJ_554 /* HCILEGenerateDHKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* HCILEGenerateDHKey.swift */; };
+		OBJ_555 /* HCILEGenerateDHKeyComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* HCILEGenerateDHKeyComplete.swift */; };
+		OBJ_556 /* HCILELongTermKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* HCILELongTermKeyRequest.swift */; };
+		OBJ_557 /* HCILELongTermKeyRequestNegativeReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* HCILELongTermKeyRequestNegativeReply.swift */; };
+		OBJ_558 /* HCILELongTermKeyRequestReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* HCILELongTermKeyRequestReply.swift */; };
+		OBJ_559 /* HCILEPeriodicAdvertisingCreateSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* HCILEPeriodicAdvertisingCreateSync.swift */; };
+		OBJ_560 /* HCILEPeriodicAdvertisingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* HCILEPeriodicAdvertisingReport.swift */; };
+		OBJ_561 /* HCILEPeriodicAdvertisingSyncEstablished.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* HCILEPeriodicAdvertisingSyncEstablished.swift */; };
+		OBJ_562 /* HCILEPeriodicAdvertisingSyncLost.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* HCILEPeriodicAdvertisingSyncLost.swift */; };
+		OBJ_563 /* HCILEPeriodicAdvertisingTerminateSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* HCILEPeriodicAdvertisingTerminateSync.swift */; };
+		OBJ_564 /* HCILEPhyUpdateComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* HCILEPhyUpdateComplete.swift */; };
+		OBJ_565 /* HCILERandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* HCILERandom.swift */; };
+		OBJ_566 /* HCILEReadAdvertisingChannelTxPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* HCILEReadAdvertisingChannelTxPower.swift */; };
+		OBJ_567 /* HCILEReadBufferSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* HCILEReadBufferSize.swift */; };
+		OBJ_568 /* HCILEReadChannelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* HCILEReadChannelMap.swift */; };
+		OBJ_569 /* HCILEReadLocalP256PublicKeyComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* HCILEReadLocalP256PublicKeyComplete.swift */; };
+		OBJ_570 /* HCILEReadLocalResolvableAddressReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* HCILEReadLocalResolvableAddressReturn.swift */; };
+		OBJ_571 /* HCILEReadLocalSupportedFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* HCILEReadLocalSupportedFeatures.swift */; };
+		OBJ_572 /* HCILEReadMaximumAdvertisingDataLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* HCILEReadMaximumAdvertisingDataLength.swift */; };
+		OBJ_573 /* HCILEReadMaximumDataLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* HCILEReadMaximumDataLength.swift */; };
+		OBJ_574 /* HCILEReadNumberOfSupportedAdvertisingSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* HCILEReadNumberOfSupportedAdvertisingSets.swift */; };
+		OBJ_575 /* HCILEReadPeerResolvableAddressReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* HCILEReadPeerResolvableAddressReturn.swift */; };
+		OBJ_576 /* HCILEReadPeriodicAdvertisingListSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* HCILEReadPeriodicAdvertisingListSize.swift */; };
+		OBJ_577 /* HCILEReadPhy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* HCILEReadPhy.swift */; };
+		OBJ_578 /* HCILEReadRemoteUsedFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* HCILEReadRemoteUsedFeatures.swift */; };
+		OBJ_579 /* HCILEReadRemoteUsedFeaturesComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* HCILEReadRemoteUsedFeaturesComplete.swift */; };
+		OBJ_580 /* HCILEReadResolvingListSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* HCILEReadResolvingListSize.swift */; };
+		OBJ_581 /* HCILEReadRfPathCompensation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_217 /* HCILEReadRfPathCompensation.swift */; };
+		OBJ_582 /* HCILEReadSuggestedDefaultDataLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* HCILEReadSuggestedDefaultDataLength.swift */; };
+		OBJ_583 /* HCILEReadSupportedStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* HCILEReadSupportedStates.swift */; };
+		OBJ_584 /* HCILEReadTransmitPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* HCILEReadTransmitPower.swift */; };
+		OBJ_585 /* HCILEReadWhiteListSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* HCILEReadWhiteListSize.swift */; };
+		OBJ_586 /* HCILEReceiverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* HCILEReceiverTest.swift */; };
+		OBJ_587 /* HCILERemoteConnectionParameterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_223 /* HCILERemoteConnectionParameterRequest.swift */; };
+		OBJ_588 /* HCILERemoteConnectionParameterRequestNegativeReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* HCILERemoteConnectionParameterRequestNegativeReply.swift */; };
+		OBJ_589 /* HCILERemoteConnectionParameterRequestReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* HCILERemoteConnectionParameterRequestReply.swift */; };
+		OBJ_590 /* HCILERemoveAdvertisingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* HCILERemoveAdvertisingSet.swift */; };
+		OBJ_591 /* HCILERemoveDeviceFromResolvingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* HCILERemoveDeviceFromResolvingList.swift */; };
+		OBJ_592 /* HCILERemoveDeviceFromWhiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* HCILERemoveDeviceFromWhiteList.swift */; };
+		OBJ_593 /* HCILERemoveDeviceToPeriodicAdvertiserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_229 /* HCILERemoveDeviceToPeriodicAdvertiserList.swift */; };
+		OBJ_594 /* HCILEScanRequestReceived.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* HCILEScanRequestReceived.swift */; };
+		OBJ_595 /* HCILESetAddressResolutionEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* HCILESetAddressResolutionEnable.swift */; };
+		OBJ_596 /* HCILESetAdvertiseEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* HCILESetAdvertiseEnable.swift */; };
+		OBJ_597 /* HCILESetAdvertisingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_233 /* HCILESetAdvertisingData.swift */; };
+		OBJ_598 /* HCILESetAdvertisingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* HCILESetAdvertisingParameters.swift */; };
+		OBJ_599 /* HCILESetAdvertisingSetRandomAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* HCILESetAdvertisingSetRandomAddress.swift */; };
+		OBJ_600 /* HCILESetDataLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* HCILESetDataLength.swift */; };
+		OBJ_601 /* HCILESetDefaultPhy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* HCILESetDefaultPhy.swift */; };
+		OBJ_602 /* HCILESetEventMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* HCILESetEventMask.swift */; };
+		OBJ_603 /* HCILESetExtendedAdvertisingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_239 /* HCILESetExtendedAdvertisingData.swift */; };
+		OBJ_604 /* HCILESetExtendedAdvertisingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_240 /* HCILESetExtendedAdvertisingParameters.swift */; };
+		OBJ_605 /* HCILESetExtendedScanEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_241 /* HCILESetExtendedScanEnable.swift */; };
+		OBJ_606 /* HCILESetExtendedScanParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_242 /* HCILESetExtendedScanParameters.swift */; };
+		OBJ_607 /* HCILESetExtendedScanResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_243 /* HCILESetExtendedScanResponseData.swift */; };
+		OBJ_608 /* HCILESetHostChannelClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_244 /* HCILESetHostChannelClassification.swift */; };
+		OBJ_609 /* HCILESetPeriodicAdvertisingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_245 /* HCILESetPeriodicAdvertisingData.swift */; };
+		OBJ_610 /* HCILESetPeriodicAdvertisingEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_246 /* HCILESetPeriodicAdvertisingEnable.swift */; };
+		OBJ_611 /* HCILESetPeriodicAdvertisingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_247 /* HCILESetPeriodicAdvertisingParameters.swift */; };
+		OBJ_612 /* HCILESetPhy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_248 /* HCILESetPhy.swift */; };
+		OBJ_613 /* HCILESetPrivacyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_249 /* HCILESetPrivacyMode.swift */; };
+		OBJ_614 /* HCILESetRandomAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_250 /* HCILESetRandomAddress.swift */; };
+		OBJ_615 /* HCILESetResolvablePrivateAddressTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* HCILESetResolvablePrivateAddressTimeout.swift */; };
+		OBJ_616 /* HCILESetScanEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* HCILESetScanEnable.swift */; };
+		OBJ_617 /* HCILESetScanParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* HCILESetScanParameters.swift */; };
+		OBJ_618 /* HCILESetScanResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_254 /* HCILESetScanResponseData.swift */; };
+		OBJ_619 /* HCILEStartEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_255 /* HCILEStartEncryption.swift */; };
+		OBJ_620 /* HCILETestEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_256 /* HCILETestEnd.swift */; };
+		OBJ_621 /* HCILETransmitterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_257 /* HCILETransmitterTest.swift */; };
+		OBJ_622 /* HCILEUpdateConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_258 /* HCILEUpdateConnection.swift */; };
+		OBJ_623 /* HCILEWriteRfPathCompensation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* HCILEWriteRfPathCompensation.swift */; };
+		OBJ_624 /* HCILEWriteSuggestedDefaultDataLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_260 /* HCILEWriteSuggestedDefaultDataLength.swift */; };
+		OBJ_625 /* HCILowEnergyMetaEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_261 /* HCILowEnergyMetaEvent.swift */; };
+		OBJ_626 /* HCIPacketHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_262 /* HCIPacketHeader.swift */; };
+		OBJ_627 /* HCIReadConnectionAcceptTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_263 /* HCIReadConnectionAcceptTimeout.swift */; };
+		OBJ_628 /* HCIReadDeviceAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_264 /* HCIReadDeviceAddress.swift */; };
+		OBJ_629 /* HCIReadLocalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_265 /* HCIReadLocalName.swift */; };
+		OBJ_630 /* HCIReadLocalVersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_266 /* HCIReadLocalVersionInformation.swift */; };
+		OBJ_631 /* HCIRemoteNameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_267 /* HCIRemoteNameRequest.swift */; };
+		OBJ_632 /* HCIRemoteNameRequestComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_268 /* HCIRemoteNameRequestComplete.swift */; };
+		OBJ_633 /* HCISetEventFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_269 /* HCISetEventFilter.swift */; };
+		OBJ_634 /* HCIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_270 /* HCIVersion.swift */; };
+		OBJ_635 /* HCIWriteConnectionAcceptTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_271 /* HCIWriteConnectionAcceptTimeout.swift */; };
+		OBJ_636 /* HCIWriteLocalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_272 /* HCIWriteLocalName.swift */; };
+		OBJ_637 /* Hexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_273 /* Hexadecimal.swift */; };
+		OBJ_638 /* HostControllerBasebandCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* HostControllerBasebandCommand.swift */; };
+		OBJ_639 /* InformationalCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_275 /* InformationalCommand.swift */; };
+		OBJ_640 /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_276 /* Integer.swift */; };
+		OBJ_641 /* L2CAPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_277 /* L2CAPSocket.swift */; };
+		OBJ_642 /* LinkControlCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_278 /* LinkControlCommand.swift */; };
+		OBJ_643 /* LinkPolicyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_279 /* LinkPolicyCommand.swift */; };
+		OBJ_644 /* LowEnergyAddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_280 /* LowEnergyAddressType.swift */; };
+		OBJ_645 /* LowEnergyAdvertiserAddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_281 /* LowEnergyAdvertiserAddressType.swift */; };
+		OBJ_646 /* LowEnergyAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_282 /* LowEnergyAdvertising.swift */; };
+		OBJ_647 /* LowEnergyAdvertisingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_283 /* LowEnergyAdvertisingData.swift */; };
+		OBJ_648 /* LowEnergyAllPhys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_284 /* LowEnergyAllPhys.swift */; };
+		OBJ_649 /* LowEnergyChannelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_285 /* LowEnergyChannelMap.swift */; };
+		OBJ_650 /* LowEnergyClockAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_286 /* LowEnergyClockAccuracy.swift */; };
+		OBJ_651 /* LowEnergyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_287 /* LowEnergyCommand.swift */; };
+		OBJ_652 /* LowEnergyConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_288 /* LowEnergyConnection.swift */; };
+		OBJ_653 /* LowEnergyConnectionInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_289 /* LowEnergyConnectionInterval.swift */; };
+		OBJ_654 /* LowEnergyConnectionIntervalRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_290 /* LowEnergyConnectionIntervalRange.swift */; };
+		OBJ_655 /* LowEnergyConnectionLatency.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_291 /* LowEnergyConnectionLatency.swift */; };
+		OBJ_656 /* LowEnergyConnectionLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* LowEnergyConnectionLength.swift */; };
+		OBJ_657 /* LowEnergyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_293 /* LowEnergyEvent.swift */; };
+		OBJ_658 /* LowEnergyFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* LowEnergyFeature.swift */; };
+		OBJ_659 /* LowEnergyFragmentPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_295 /* LowEnergyFragmentPreference.swift */; };
+		OBJ_660 /* LowEnergyMaxTxOctets.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_296 /* LowEnergyMaxTxOctets.swift */; };
+		OBJ_661 /* LowEnergyMaxTxTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_297 /* LowEnergyMaxTxTime.swift */; };
+		OBJ_662 /* LowEnergyPacketPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_298 /* LowEnergyPacketPayload.swift */; };
+		OBJ_663 /* LowEnergyPeerIdentifyAddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_299 /* LowEnergyPeerIdentifyAddressType.swift */; };
+		OBJ_664 /* LowEnergyPhyOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_300 /* LowEnergyPhyOptions.swift */; };
+		OBJ_665 /* LowEnergyResolvingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_301 /* LowEnergyResolvingList.swift */; };
+		OBJ_666 /* LowEnergyRfRxPathCompensationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_302 /* LowEnergyRfRxPathCompensationValue.swift */; };
+		OBJ_667 /* LowEnergyRfTxPathCompensationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_303 /* LowEnergyRfTxPathCompensationValue.swift */; };
+		OBJ_668 /* LowEnergyRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_304 /* LowEnergyRole.swift */; };
+		OBJ_669 /* LowEnergyRxChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_305 /* LowEnergyRxChannel.swift */; };
+		OBJ_670 /* LowEnergyRxPhy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_306 /* LowEnergyRxPhy.swift */; };
+		OBJ_671 /* LowEnergyRxPhys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_307 /* LowEnergyRxPhys.swift */; };
+		OBJ_672 /* LowEnergyScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_308 /* LowEnergyScan.swift */; };
+		OBJ_673 /* LowEnergyScanInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_309 /* LowEnergyScanInterval.swift */; };
+		OBJ_674 /* LowEnergyScanTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_310 /* LowEnergyScanTimeInterval.swift */; };
+		OBJ_675 /* LowEnergyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_311 /* LowEnergyState.swift */; };
+		OBJ_676 /* LowEnergySupervisionTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_312 /* LowEnergySupervisionTimeout.swift */; };
+		OBJ_677 /* LowEnergyTxChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_313 /* LowEnergyTxChannel.swift */; };
+		OBJ_678 /* LowEnergyTxPhy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_314 /* LowEnergyTxPhy.swift */; };
+		OBJ_679 /* LowEnergyTxPhys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_315 /* LowEnergyTxPhys.swift */; };
+		OBJ_680 /* LowEnergyTxPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_316 /* LowEnergyTxPower.swift */; };
+		OBJ_681 /* LowEnergyWhiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_317 /* LowEnergyWhiteList.swift */; };
+		OBJ_682 /* LowEnergyWhiteListDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_318 /* LowEnergyWhiteListDevice.swift */; };
+		OBJ_683 /* POSIXError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_319 /* POSIXError.swift */; };
+		OBJ_684 /* ProtocolServiceMultiplexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_320 /* ProtocolServiceMultiplexer.swift */; };
+		OBJ_685 /* RSSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_321 /* RSSI.swift */; };
+		OBJ_686 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_322 /* Range.swift */; };
+		OBJ_687 /* SFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_323 /* SFloat.swift */; };
+		OBJ_688 /* SecurityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_324 /* SecurityLevel.swift */; };
+		OBJ_689 /* StatusParametersCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_325 /* StatusParametersCommand.swift */; };
+		OBJ_690 /* TestingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_326 /* TestingCommand.swift */; };
+		OBJ_691 /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_327 /* UInt128.swift */; };
+		OBJ_692 /* UInt256.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_328 /* UInt256.swift */; };
+		OBJ_693 /* UInt512.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_329 /* UInt512.swift */; };
+		OBJ_694 /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_330 /* UUID.swift */; };
+		OBJ_695 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_331 /* Unit.swift */; };
+		OBJ_696 /* UnitIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_332 /* UnitIdentifier.swift */; };
+		OBJ_697 /* UnitIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_333 /* UnitIdentifierExtension.swift */; };
+		OBJ_698 /* VendorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_334 /* VendorCommand.swift */; };
+		OBJ_699 /* iBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_335 /* iBeacon.swift */; };
+		OBJ_706 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_717 /* AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_338 /* AddressTests.swift */; };
+		OBJ_718 /* AttributeProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_339 /* AttributeProtocolTests.swift */; };
+		OBJ_719 /* BluetoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_340 /* BluetoothTests.swift */; };
+		OBJ_720 /* BluetoothUUIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_341 /* BluetoothUUIDTests.swift */; };
+		OBJ_721 /* CompanyIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_342 /* CompanyIdentifierTests.swift */; };
+		OBJ_722 /* DarwinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_343 /* DarwinTests.swift */; };
+		OBJ_723 /* DefinedUUIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_344 /* DefinedUUIDTests.swift */; };
+		OBJ_724 /* GAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_345 /* GAPTests.swift */; };
+		OBJ_725 /* GATTCharacteristicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_346 /* GATTCharacteristicTests.swift */; };
+		OBJ_726 /* GATTDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_347 /* GATTDatabaseTests.swift */; };
+		OBJ_727 /* GATTDescriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_348 /* GATTDescriptorTests.swift */; };
+		OBJ_728 /* GATTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_349 /* GATTTests.swift */; };
+		OBJ_729 /* HCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_350 /* HCITests.swift */; };
+		OBJ_730 /* HostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_351 /* HostController.swift */; };
+		OBJ_731 /* IntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_352 /* IntegerTests.swift */; };
+		OBJ_732 /* L2CAPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_353 /* L2CAPSocket.swift */; };
+		OBJ_733 /* TestProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_354 /* TestProfile.swift */; };
+		OBJ_734 /* UInt128Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_355 /* UInt128Tests.swift */; };
+		OBJ_735 /* UInt256Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_356 /* UInt256Tests.swift */; };
+		OBJ_736 /* UInt512Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_357 /* UInt512Tests.swift */; };
+		OBJ_737 /* UUIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_358 /* UUIDTests.swift */; };
+		OBJ_738 /* UnitIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_359 /* UnitIdentifierTests.swift */; };
+		OBJ_739 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_360 /* XCTest.swift */; };
+		OBJ_740 /* iBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_361 /* iBeaconTests.swift */; };
+		OBJ_742 /* Bluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bluetooth::Bluetooth::Product" /* Bluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB872EB720DFBB3000200DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Bluetooth::Bluetooth";
+			remoteInfo = Bluetooth;
+		};
+		FB872EB820DFBB3200200DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Bluetooth::BluetoothTests";
+			remoteInfo = BluetoothTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"Bluetooth::Bluetooth::Product" /* Bluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Bluetooth::BluetoothTests::Product" /* BluetoothTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = BluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* ATTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTError.swift; sourceTree = "<group>"; };
+		OBJ_100 /* GAPTxPowerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPTxPowerLevel.swift; sourceTree = "<group>"; };
+		OBJ_101 /* GAPURI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPURI.swift; sourceTree = "<group>"; };
+		OBJ_102 /* GATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATT.swift; sourceTree = "<group>"; };
+		OBJ_103 /* GATTAerobicHeartRateLowerLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAerobicHeartRateLowerLimit.swift; sourceTree = "<group>"; };
+		OBJ_104 /* GATTAerobicHeartRateUpperLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAerobicHeartRateUpperLimit.swift; sourceTree = "<group>"; };
+		OBJ_105 /* GATTAerobicThreshold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAerobicThreshold.swift; sourceTree = "<group>"; };
+		OBJ_106 /* GATTAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAge.swift; sourceTree = "<group>"; };
+		OBJ_107 /* GATTAggregateFormatDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAggregateFormatDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_108 /* GATTAlertCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertCategory.swift; sourceTree = "<group>"; };
+		OBJ_109 /* GATTAlertCategoryBitMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertCategoryBitMask.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ATTErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTErrorResponse.swift; sourceTree = "<group>"; };
+		OBJ_110 /* GATTAlertLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertLevel.swift; sourceTree = "<group>"; };
+		OBJ_111 /* GATTAlertNotificationControlPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertNotificationControlPoint.swift; sourceTree = "<group>"; };
+		OBJ_112 /* GATTAlertNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertNotificationService.swift; sourceTree = "<group>"; };
+		OBJ_113 /* GATTAlertStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAlertStatus.swift; sourceTree = "<group>"; };
+		OBJ_114 /* GATTAltitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAltitude.swift; sourceTree = "<group>"; };
+		OBJ_115 /* GATTAnaerobicHeartRateLowerLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAnaerobicHeartRateLowerLimit.swift; sourceTree = "<group>"; };
+		OBJ_116 /* GATTAnaerobicHeartRateUpperLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAnaerobicHeartRateUpperLimit.swift; sourceTree = "<group>"; };
+		OBJ_117 /* GATTAnalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAnalog.swift; sourceTree = "<group>"; };
+		OBJ_118 /* GATTAnalogOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAnalogOutput.swift; sourceTree = "<group>"; };
+		OBJ_119 /* GATTAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTAttributes.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ATTExecuteWriteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTExecuteWriteRequest.swift; sourceTree = "<group>"; };
+		OBJ_120 /* GATTBarometricPressureTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBarometricPressureTrend.swift; sourceTree = "<group>"; };
+		OBJ_121 /* GATTBatteryLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBatteryLevel.swift; sourceTree = "<group>"; };
+		OBJ_122 /* GATTBatteryPowerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBatteryPowerState.swift; sourceTree = "<group>"; };
+		OBJ_123 /* GATTBatteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBatteryService.swift; sourceTree = "<group>"; };
+		OBJ_124 /* GATTBloodPressureFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBloodPressureFeature.swift; sourceTree = "<group>"; };
+		OBJ_125 /* GATTBloodPressureManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBloodPressureManagement.swift; sourceTree = "<group>"; };
+		OBJ_126 /* GATTBloodPressureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBloodPressureService.swift; sourceTree = "<group>"; };
+		OBJ_127 /* GATTBodySensorLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBodySensorLocation.swift; sourceTree = "<group>"; };
+		OBJ_128 /* GATTBootKeyboardInputReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBootKeyboardInputReport.swift; sourceTree = "<group>"; };
+		OBJ_129 /* GATTBootKeyboardOutputReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBootKeyboardOutputReport.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ATTExecuteWriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTExecuteWriteResponse.swift; sourceTree = "<group>"; };
+		OBJ_130 /* GATTBootMouseInputReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTBootMouseInputReport.swift; sourceTree = "<group>"; };
+		OBJ_131 /* GATTCGMSessionRunTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCGMSessionRunTime.swift; sourceTree = "<group>"; };
+		OBJ_132 /* GATTCentralAddressResolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCentralAddressResolution.swift; sourceTree = "<group>"; };
+		OBJ_133 /* GATTCharacteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCharacteristic.swift; sourceTree = "<group>"; };
+		OBJ_134 /* GATTCharacteristicExtendedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCharacteristicExtendedProperties.swift; sourceTree = "<group>"; };
+		OBJ_135 /* GATTCharacteristicFormatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCharacteristicFormatType.swift; sourceTree = "<group>"; };
+		OBJ_136 /* GATTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTClient.swift; sourceTree = "<group>"; };
+		OBJ_137 /* GATTClientCharacteristicConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTClientCharacteristicConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_138 /* GATTDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTDatabase.swift; sourceTree = "<group>"; };
+		OBJ_139 /* GATTDateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTDateTime.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ATTFindByTypeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTFindByTypeRequest.swift; sourceTree = "<group>"; };
+		OBJ_140 /* GATTDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_141 /* GATTExternalReportReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTExternalReportReference.swift; sourceTree = "<group>"; };
+		OBJ_142 /* GATTFirmwareRevisionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTFirmwareRevisionString.swift; sourceTree = "<group>"; };
+		OBJ_143 /* GATTFormatDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTFormatDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_144 /* GATTManufacturerNameString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTManufacturerNameString.swift; sourceTree = "<group>"; };
+		OBJ_145 /* GATTModelNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTModelNumber.swift; sourceTree = "<group>"; };
+		OBJ_146 /* GATTNewAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTNewAlert.swift; sourceTree = "<group>"; };
+		OBJ_147 /* GATTNumberOfDigitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTNumberOfDigitals.swift; sourceTree = "<group>"; };
+		OBJ_148 /* GATTPnPID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTPnPID.swift; sourceTree = "<group>"; };
+		OBJ_149 /* GATTProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTProfile.swift; sourceTree = "<group>"; };
+		OBJ_15 /* ATTFindByTypeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTFindByTypeResponse.swift; sourceTree = "<group>"; };
+		OBJ_150 /* GATTReportReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTReportReference.swift; sourceTree = "<group>"; };
+		OBJ_151 /* GATTServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTServer.swift; sourceTree = "<group>"; };
+		OBJ_152 /* GATTServerCharacteristicConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTServerCharacteristicConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_153 /* GATTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTService.swift; sourceTree = "<group>"; };
+		OBJ_154 /* GATTSoftwareRevisionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTSoftwareRevisionString.swift; sourceTree = "<group>"; };
+		OBJ_155 /* GATTSupportedNewAlertCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTSupportedNewAlertCategory.swift; sourceTree = "<group>"; };
+		OBJ_156 /* GATTSupportedUnreadAlertCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTSupportedUnreadAlertCategory.swift; sourceTree = "<group>"; };
+		OBJ_157 /* GATTSystemID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTSystemID.swift; sourceTree = "<group>"; };
+		OBJ_158 /* GATTTimeTriggerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTTimeTriggerSetting.swift; sourceTree = "<group>"; };
+		OBJ_159 /* GATTUnreadAlertStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTUnreadAlertStatus.swift; sourceTree = "<group>"; };
+		OBJ_16 /* ATTFindInformationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTFindInformationRequest.swift; sourceTree = "<group>"; };
+		OBJ_160 /* GATTUserDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTUserDescription.swift; sourceTree = "<group>"; };
+		OBJ_161 /* HCI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCI.swift; sourceTree = "<group>"; };
+		OBJ_162 /* HCICommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCICommand.swift; sourceTree = "<group>"; };
+		OBJ_163 /* HCICommandComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCICommandComplete.swift; sourceTree = "<group>"; };
+		OBJ_164 /* HCICommandStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCICommandStatus.swift; sourceTree = "<group>"; };
+		OBJ_165 /* HCICommandTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCICommandTimeout.swift; sourceTree = "<group>"; };
+		OBJ_166 /* HCIEncryptionChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIEncryptionChange.swift; sourceTree = "<group>"; };
+		OBJ_167 /* HCIEncryptionKeyRefreshComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIEncryptionKeyRefreshComplete.swift; sourceTree = "<group>"; };
+		OBJ_168 /* HCIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIError.swift; sourceTree = "<group>"; };
+		OBJ_169 /* HCIEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIEvent.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ATTFindInformationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTFindInformationResponse.swift; sourceTree = "<group>"; };
+		OBJ_170 /* HCIGeneralEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIGeneralEvent.swift; sourceTree = "<group>"; };
+		OBJ_171 /* HCIHoldMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIHoldMode.swift; sourceTree = "<group>"; };
+		OBJ_172 /* HCIInquiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIInquiry.swift; sourceTree = "<group>"; };
+		OBJ_173 /* HCILEAddDeviceToPeriodicAdvertiserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEAddDeviceToPeriodicAdvertiserList.swift; sourceTree = "<group>"; };
+		OBJ_174 /* HCILEAddDeviceToResolvingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEAddDeviceToResolvingList.swift; sourceTree = "<group>"; };
+		OBJ_175 /* HCILEAddDeviceToWhiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEAddDeviceToWhiteList.swift; sourceTree = "<group>"; };
+		OBJ_176 /* HCILEAdvertisingReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEAdvertisingReport.swift; sourceTree = "<group>"; };
+		OBJ_177 /* HCILEAdvertisingSetTerminated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEAdvertisingSetTerminated.swift; sourceTree = "<group>"; };
+		OBJ_178 /* HCILEChannelSelectionAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEChannelSelectionAlgorithm.swift; sourceTree = "<group>"; };
+		OBJ_179 /* HCILEConnectionComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEConnectionComplete.swift; sourceTree = "<group>"; };
+		OBJ_18 /* ATTHandleValueConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTHandleValueConfirmation.swift; sourceTree = "<group>"; };
+		OBJ_180 /* HCILEConnectionUpdateComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEConnectionUpdateComplete.swift; sourceTree = "<group>"; };
+		OBJ_181 /* HCILECreateConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILECreateConnection.swift; sourceTree = "<group>"; };
+		OBJ_182 /* HCILEDataLengthChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEDataLengthChange.swift; sourceTree = "<group>"; };
+		OBJ_183 /* HCILEDirectedAdvertisingReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEDirectedAdvertisingReport.swift; sourceTree = "<group>"; };
+		OBJ_184 /* HCILEEncrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEEncrypt.swift; sourceTree = "<group>"; };
+		OBJ_185 /* HCILEEnhancedConnectionComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEEnhancedConnectionComplete.swift; sourceTree = "<group>"; };
+		OBJ_186 /* HCILEEnhancedReceiverTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEEnhancedReceiverTest.swift; sourceTree = "<group>"; };
+		OBJ_187 /* HCILEEnhancedTransmitterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEEnhancedTransmitterTest.swift; sourceTree = "<group>"; };
+		OBJ_188 /* HCILEExtendedAdvertisingReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEExtendedAdvertisingReport.swift; sourceTree = "<group>"; };
+		OBJ_189 /* HCILEExtendedCreateConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEExtendedCreateConnection.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ATTHandleValueIndication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTHandleValueIndication.swift; sourceTree = "<group>"; };
+		OBJ_190 /* HCILEGenerateDHKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEGenerateDHKey.swift; sourceTree = "<group>"; };
+		OBJ_191 /* HCILEGenerateDHKeyComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEGenerateDHKeyComplete.swift; sourceTree = "<group>"; };
+		OBJ_192 /* HCILELongTermKeyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILELongTermKeyRequest.swift; sourceTree = "<group>"; };
+		OBJ_193 /* HCILELongTermKeyRequestNegativeReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILELongTermKeyRequestNegativeReply.swift; sourceTree = "<group>"; };
+		OBJ_194 /* HCILELongTermKeyRequestReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILELongTermKeyRequestReply.swift; sourceTree = "<group>"; };
+		OBJ_195 /* HCILEPeriodicAdvertisingCreateSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPeriodicAdvertisingCreateSync.swift; sourceTree = "<group>"; };
+		OBJ_196 /* HCILEPeriodicAdvertisingReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPeriodicAdvertisingReport.swift; sourceTree = "<group>"; };
+		OBJ_197 /* HCILEPeriodicAdvertisingSyncEstablished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPeriodicAdvertisingSyncEstablished.swift; sourceTree = "<group>"; };
+		OBJ_198 /* HCILEPeriodicAdvertisingSyncLost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPeriodicAdvertisingSyncLost.swift; sourceTree = "<group>"; };
+		OBJ_199 /* HCILEPeriodicAdvertisingTerminateSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPeriodicAdvertisingTerminateSync.swift; sourceTree = "<group>"; };
+		OBJ_20 /* ATTHandleValueNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTHandleValueNotification.swift; sourceTree = "<group>"; };
+		OBJ_200 /* HCILEPhyUpdateComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEPhyUpdateComplete.swift; sourceTree = "<group>"; };
+		OBJ_201 /* HCILERandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERandom.swift; sourceTree = "<group>"; };
+		OBJ_202 /* HCILEReadAdvertisingChannelTxPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadAdvertisingChannelTxPower.swift; sourceTree = "<group>"; };
+		OBJ_203 /* HCILEReadBufferSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadBufferSize.swift; sourceTree = "<group>"; };
+		OBJ_204 /* HCILEReadChannelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadChannelMap.swift; sourceTree = "<group>"; };
+		OBJ_205 /* HCILEReadLocalP256PublicKeyComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadLocalP256PublicKeyComplete.swift; sourceTree = "<group>"; };
+		OBJ_206 /* HCILEReadLocalResolvableAddressReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadLocalResolvableAddressReturn.swift; sourceTree = "<group>"; };
+		OBJ_207 /* HCILEReadLocalSupportedFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadLocalSupportedFeatures.swift; sourceTree = "<group>"; };
+		OBJ_208 /* HCILEReadMaximumAdvertisingDataLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadMaximumAdvertisingDataLength.swift; sourceTree = "<group>"; };
+		OBJ_209 /* HCILEReadMaximumDataLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadMaximumDataLength.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ATTMaximumTransmissionUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTMaximumTransmissionUnit.swift; sourceTree = "<group>"; };
+		OBJ_210 /* HCILEReadNumberOfSupportedAdvertisingSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadNumberOfSupportedAdvertisingSets.swift; sourceTree = "<group>"; };
+		OBJ_211 /* HCILEReadPeerResolvableAddressReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadPeerResolvableAddressReturn.swift; sourceTree = "<group>"; };
+		OBJ_212 /* HCILEReadPeriodicAdvertisingListSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadPeriodicAdvertisingListSize.swift; sourceTree = "<group>"; };
+		OBJ_213 /* HCILEReadPhy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadPhy.swift; sourceTree = "<group>"; };
+		OBJ_214 /* HCILEReadRemoteUsedFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadRemoteUsedFeatures.swift; sourceTree = "<group>"; };
+		OBJ_215 /* HCILEReadRemoteUsedFeaturesComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadRemoteUsedFeaturesComplete.swift; sourceTree = "<group>"; };
+		OBJ_216 /* HCILEReadResolvingListSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadResolvingListSize.swift; sourceTree = "<group>"; };
+		OBJ_217 /* HCILEReadRfPathCompensation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadRfPathCompensation.swift; sourceTree = "<group>"; };
+		OBJ_218 /* HCILEReadSuggestedDefaultDataLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadSuggestedDefaultDataLength.swift; sourceTree = "<group>"; };
+		OBJ_219 /* HCILEReadSupportedStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadSupportedStates.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ATTMaximumTransmissionUnitRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTMaximumTransmissionUnitRequest.swift; sourceTree = "<group>"; };
+		OBJ_220 /* HCILEReadTransmitPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadTransmitPower.swift; sourceTree = "<group>"; };
+		OBJ_221 /* HCILEReadWhiteListSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReadWhiteListSize.swift; sourceTree = "<group>"; };
+		OBJ_222 /* HCILEReceiverTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEReceiverTest.swift; sourceTree = "<group>"; };
+		OBJ_223 /* HCILERemoteConnectionParameterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoteConnectionParameterRequest.swift; sourceTree = "<group>"; };
+		OBJ_224 /* HCILERemoteConnectionParameterRequestNegativeReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoteConnectionParameterRequestNegativeReply.swift; sourceTree = "<group>"; };
+		OBJ_225 /* HCILERemoteConnectionParameterRequestReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoteConnectionParameterRequestReply.swift; sourceTree = "<group>"; };
+		OBJ_226 /* HCILERemoveAdvertisingSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoveAdvertisingSet.swift; sourceTree = "<group>"; };
+		OBJ_227 /* HCILERemoveDeviceFromResolvingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoveDeviceFromResolvingList.swift; sourceTree = "<group>"; };
+		OBJ_228 /* HCILERemoveDeviceFromWhiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoveDeviceFromWhiteList.swift; sourceTree = "<group>"; };
+		OBJ_229 /* HCILERemoveDeviceToPeriodicAdvertiserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILERemoveDeviceToPeriodicAdvertiserList.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ATTMaximumTransmissionUnitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTMaximumTransmissionUnitResponse.swift; sourceTree = "<group>"; };
+		OBJ_230 /* HCILEScanRequestReceived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEScanRequestReceived.swift; sourceTree = "<group>"; };
+		OBJ_231 /* HCILESetAddressResolutionEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetAddressResolutionEnable.swift; sourceTree = "<group>"; };
+		OBJ_232 /* HCILESetAdvertiseEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetAdvertiseEnable.swift; sourceTree = "<group>"; };
+		OBJ_233 /* HCILESetAdvertisingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetAdvertisingData.swift; sourceTree = "<group>"; };
+		OBJ_234 /* HCILESetAdvertisingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetAdvertisingParameters.swift; sourceTree = "<group>"; };
+		OBJ_235 /* HCILESetAdvertisingSetRandomAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetAdvertisingSetRandomAddress.swift; sourceTree = "<group>"; };
+		OBJ_236 /* HCILESetDataLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetDataLength.swift; sourceTree = "<group>"; };
+		OBJ_237 /* HCILESetDefaultPhy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetDefaultPhy.swift; sourceTree = "<group>"; };
+		OBJ_238 /* HCILESetEventMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetEventMask.swift; sourceTree = "<group>"; };
+		OBJ_239 /* HCILESetExtendedAdvertisingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetExtendedAdvertisingData.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ATTPrepareWriteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTPrepareWriteRequest.swift; sourceTree = "<group>"; };
+		OBJ_240 /* HCILESetExtendedAdvertisingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetExtendedAdvertisingParameters.swift; sourceTree = "<group>"; };
+		OBJ_241 /* HCILESetExtendedScanEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetExtendedScanEnable.swift; sourceTree = "<group>"; };
+		OBJ_242 /* HCILESetExtendedScanParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetExtendedScanParameters.swift; sourceTree = "<group>"; };
+		OBJ_243 /* HCILESetExtendedScanResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetExtendedScanResponseData.swift; sourceTree = "<group>"; };
+		OBJ_244 /* HCILESetHostChannelClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetHostChannelClassification.swift; sourceTree = "<group>"; };
+		OBJ_245 /* HCILESetPeriodicAdvertisingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetPeriodicAdvertisingData.swift; sourceTree = "<group>"; };
+		OBJ_246 /* HCILESetPeriodicAdvertisingEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetPeriodicAdvertisingEnable.swift; sourceTree = "<group>"; };
+		OBJ_247 /* HCILESetPeriodicAdvertisingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetPeriodicAdvertisingParameters.swift; sourceTree = "<group>"; };
+		OBJ_248 /* HCILESetPhy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetPhy.swift; sourceTree = "<group>"; };
+		OBJ_249 /* HCILESetPrivacyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetPrivacyMode.swift; sourceTree = "<group>"; };
+		OBJ_25 /* ATTPrepareWriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTPrepareWriteResponse.swift; sourceTree = "<group>"; };
+		OBJ_250 /* HCILESetRandomAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetRandomAddress.swift; sourceTree = "<group>"; };
+		OBJ_251 /* HCILESetResolvablePrivateAddressTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetResolvablePrivateAddressTimeout.swift; sourceTree = "<group>"; };
+		OBJ_252 /* HCILESetScanEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetScanEnable.swift; sourceTree = "<group>"; };
+		OBJ_253 /* HCILESetScanParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetScanParameters.swift; sourceTree = "<group>"; };
+		OBJ_254 /* HCILESetScanResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILESetScanResponseData.swift; sourceTree = "<group>"; };
+		OBJ_255 /* HCILEStartEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEStartEncryption.swift; sourceTree = "<group>"; };
+		OBJ_256 /* HCILETestEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILETestEnd.swift; sourceTree = "<group>"; };
+		OBJ_257 /* HCILETransmitterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILETransmitterTest.swift; sourceTree = "<group>"; };
+		OBJ_258 /* HCILEUpdateConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEUpdateConnection.swift; sourceTree = "<group>"; };
+		OBJ_259 /* HCILEWriteRfPathCompensation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEWriteRfPathCompensation.swift; sourceTree = "<group>"; };
+		OBJ_26 /* ATTProtocolDataUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTProtocolDataUnit.swift; sourceTree = "<group>"; };
+		OBJ_260 /* HCILEWriteSuggestedDefaultDataLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILEWriteSuggestedDefaultDataLength.swift; sourceTree = "<group>"; };
+		OBJ_261 /* HCILowEnergyMetaEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCILowEnergyMetaEvent.swift; sourceTree = "<group>"; };
+		OBJ_262 /* HCIPacketHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIPacketHeader.swift; sourceTree = "<group>"; };
+		OBJ_263 /* HCIReadConnectionAcceptTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIReadConnectionAcceptTimeout.swift; sourceTree = "<group>"; };
+		OBJ_264 /* HCIReadDeviceAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIReadDeviceAddress.swift; sourceTree = "<group>"; };
+		OBJ_265 /* HCIReadLocalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIReadLocalName.swift; sourceTree = "<group>"; };
+		OBJ_266 /* HCIReadLocalVersionInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIReadLocalVersionInformation.swift; sourceTree = "<group>"; };
+		OBJ_267 /* HCIRemoteNameRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIRemoteNameRequest.swift; sourceTree = "<group>"; };
+		OBJ_268 /* HCIRemoteNameRequestComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIRemoteNameRequestComplete.swift; sourceTree = "<group>"; };
+		OBJ_269 /* HCISetEventFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCISetEventFilter.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ATTReadBlobRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadBlobRequest.swift; sourceTree = "<group>"; };
+		OBJ_270 /* HCIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIVersion.swift; sourceTree = "<group>"; };
+		OBJ_271 /* HCIWriteConnectionAcceptTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIWriteConnectionAcceptTimeout.swift; sourceTree = "<group>"; };
+		OBJ_272 /* HCIWriteLocalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCIWriteLocalName.swift; sourceTree = "<group>"; };
+		OBJ_273 /* Hexadecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexadecimal.swift; sourceTree = "<group>"; };
+		OBJ_274 /* HostControllerBasebandCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostControllerBasebandCommand.swift; sourceTree = "<group>"; };
+		OBJ_275 /* InformationalCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalCommand.swift; sourceTree = "<group>"; };
+		OBJ_276 /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		OBJ_277 /* L2CAPSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2CAPSocket.swift; sourceTree = "<group>"; };
+		OBJ_278 /* LinkControlCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkControlCommand.swift; sourceTree = "<group>"; };
+		OBJ_279 /* LinkPolicyCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPolicyCommand.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ATTReadBlobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadBlobResponse.swift; sourceTree = "<group>"; };
+		OBJ_280 /* LowEnergyAddressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyAddressType.swift; sourceTree = "<group>"; };
+		OBJ_281 /* LowEnergyAdvertiserAddressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyAdvertiserAddressType.swift; sourceTree = "<group>"; };
+		OBJ_282 /* LowEnergyAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyAdvertising.swift; sourceTree = "<group>"; };
+		OBJ_283 /* LowEnergyAdvertisingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyAdvertisingData.swift; sourceTree = "<group>"; };
+		OBJ_284 /* LowEnergyAllPhys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyAllPhys.swift; sourceTree = "<group>"; };
+		OBJ_285 /* LowEnergyChannelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyChannelMap.swift; sourceTree = "<group>"; };
+		OBJ_286 /* LowEnergyClockAccuracy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyClockAccuracy.swift; sourceTree = "<group>"; };
+		OBJ_287 /* LowEnergyCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyCommand.swift; sourceTree = "<group>"; };
+		OBJ_288 /* LowEnergyConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyConnection.swift; sourceTree = "<group>"; };
+		OBJ_289 /* LowEnergyConnectionInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyConnectionInterval.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ATTReadByGroupTypeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadByGroupTypeRequest.swift; sourceTree = "<group>"; };
+		OBJ_290 /* LowEnergyConnectionIntervalRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyConnectionIntervalRange.swift; sourceTree = "<group>"; };
+		OBJ_291 /* LowEnergyConnectionLatency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyConnectionLatency.swift; sourceTree = "<group>"; };
+		OBJ_292 /* LowEnergyConnectionLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyConnectionLength.swift; sourceTree = "<group>"; };
+		OBJ_293 /* LowEnergyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyEvent.swift; sourceTree = "<group>"; };
+		OBJ_294 /* LowEnergyFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyFeature.swift; sourceTree = "<group>"; };
+		OBJ_295 /* LowEnergyFragmentPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyFragmentPreference.swift; sourceTree = "<group>"; };
+		OBJ_296 /* LowEnergyMaxTxOctets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyMaxTxOctets.swift; sourceTree = "<group>"; };
+		OBJ_297 /* LowEnergyMaxTxTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyMaxTxTime.swift; sourceTree = "<group>"; };
+		OBJ_298 /* LowEnergyPacketPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyPacketPayload.swift; sourceTree = "<group>"; };
+		OBJ_299 /* LowEnergyPeerIdentifyAddressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyPeerIdentifyAddressType.swift; sourceTree = "<group>"; };
+		OBJ_30 /* ATTReadByGroupTypeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadByGroupTypeResponse.swift; sourceTree = "<group>"; };
+		OBJ_300 /* LowEnergyPhyOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyPhyOptions.swift; sourceTree = "<group>"; };
+		OBJ_301 /* LowEnergyResolvingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyResolvingList.swift; sourceTree = "<group>"; };
+		OBJ_302 /* LowEnergyRfRxPathCompensationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRfRxPathCompensationValue.swift; sourceTree = "<group>"; };
+		OBJ_303 /* LowEnergyRfTxPathCompensationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRfTxPathCompensationValue.swift; sourceTree = "<group>"; };
+		OBJ_304 /* LowEnergyRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRole.swift; sourceTree = "<group>"; };
+		OBJ_305 /* LowEnergyRxChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRxChannel.swift; sourceTree = "<group>"; };
+		OBJ_306 /* LowEnergyRxPhy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRxPhy.swift; sourceTree = "<group>"; };
+		OBJ_307 /* LowEnergyRxPhys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyRxPhys.swift; sourceTree = "<group>"; };
+		OBJ_308 /* LowEnergyScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyScan.swift; sourceTree = "<group>"; };
+		OBJ_309 /* LowEnergyScanInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyScanInterval.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ATTReadByTypeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadByTypeRequest.swift; sourceTree = "<group>"; };
+		OBJ_310 /* LowEnergyScanTimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyScanTimeInterval.swift; sourceTree = "<group>"; };
+		OBJ_311 /* LowEnergyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyState.swift; sourceTree = "<group>"; };
+		OBJ_312 /* LowEnergySupervisionTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergySupervisionTimeout.swift; sourceTree = "<group>"; };
+		OBJ_313 /* LowEnergyTxChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyTxChannel.swift; sourceTree = "<group>"; };
+		OBJ_314 /* LowEnergyTxPhy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyTxPhy.swift; sourceTree = "<group>"; };
+		OBJ_315 /* LowEnergyTxPhys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyTxPhys.swift; sourceTree = "<group>"; };
+		OBJ_316 /* LowEnergyTxPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyTxPower.swift; sourceTree = "<group>"; };
+		OBJ_317 /* LowEnergyWhiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyWhiteList.swift; sourceTree = "<group>"; };
+		OBJ_318 /* LowEnergyWhiteListDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowEnergyWhiteListDevice.swift; sourceTree = "<group>"; };
+		OBJ_319 /* POSIXError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSIXError.swift; sourceTree = "<group>"; };
+		OBJ_32 /* ATTReadByTypeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadByTypeResponse.swift; sourceTree = "<group>"; };
+		OBJ_320 /* ProtocolServiceMultiplexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolServiceMultiplexer.swift; sourceTree = "<group>"; };
+		OBJ_321 /* RSSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSI.swift; sourceTree = "<group>"; };
+		OBJ_322 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		OBJ_323 /* SFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFloat.swift; sourceTree = "<group>"; };
+		OBJ_324 /* SecurityLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityLevel.swift; sourceTree = "<group>"; };
+		OBJ_325 /* StatusParametersCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusParametersCommand.swift; sourceTree = "<group>"; };
+		OBJ_326 /* TestingCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingCommand.swift; sourceTree = "<group>"; };
+		OBJ_327 /* UInt128.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt128.swift; sourceTree = "<group>"; };
+		OBJ_328 /* UInt256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt256.swift; sourceTree = "<group>"; };
+		OBJ_329 /* UInt512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt512.swift; sourceTree = "<group>"; };
+		OBJ_33 /* ATTReadMultipleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadMultipleRequest.swift; sourceTree = "<group>"; };
+		OBJ_330 /* UUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
+		OBJ_331 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		OBJ_332 /* UnitIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitIdentifier.swift; sourceTree = "<group>"; };
+		OBJ_333 /* UnitIdentifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitIdentifierExtension.swift; sourceTree = "<group>"; };
+		OBJ_334 /* VendorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorCommand.swift; sourceTree = "<group>"; };
+		OBJ_335 /* iBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeacon.swift; sourceTree = "<group>"; };
+		OBJ_338 /* AddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTests.swift; sourceTree = "<group>"; };
+		OBJ_339 /* AttributeProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeProtocolTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* ATTReadMultipleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadMultipleResponse.swift; sourceTree = "<group>"; };
+		OBJ_340 /* BluetoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTests.swift; sourceTree = "<group>"; };
+		OBJ_341 /* BluetoothUUIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothUUIDTests.swift; sourceTree = "<group>"; };
+		OBJ_342 /* CompanyIdentifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyIdentifierTests.swift; sourceTree = "<group>"; };
+		OBJ_343 /* DarwinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwinTests.swift; sourceTree = "<group>"; };
+		OBJ_344 /* DefinedUUIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinedUUIDTests.swift; sourceTree = "<group>"; };
+		OBJ_345 /* GAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPTests.swift; sourceTree = "<group>"; };
+		OBJ_346 /* GATTCharacteristicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTCharacteristicTests.swift; sourceTree = "<group>"; };
+		OBJ_347 /* GATTDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTDatabaseTests.swift; sourceTree = "<group>"; };
+		OBJ_348 /* GATTDescriptorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTDescriptorTests.swift; sourceTree = "<group>"; };
+		OBJ_349 /* GATTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATTTests.swift; sourceTree = "<group>"; };
+		OBJ_35 /* ATTReadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadRequest.swift; sourceTree = "<group>"; };
+		OBJ_350 /* HCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCITests.swift; sourceTree = "<group>"; };
+		OBJ_351 /* HostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostController.swift; sourceTree = "<group>"; };
+		OBJ_352 /* IntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerTests.swift; sourceTree = "<group>"; };
+		OBJ_353 /* L2CAPSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2CAPSocket.swift; sourceTree = "<group>"; };
+		OBJ_354 /* TestProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProfile.swift; sourceTree = "<group>"; };
+		OBJ_355 /* UInt128Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt128Tests.swift; sourceTree = "<group>"; };
+		OBJ_356 /* UInt256Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt256Tests.swift; sourceTree = "<group>"; };
+		OBJ_357 /* UInt512Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt512Tests.swift; sourceTree = "<group>"; };
+		OBJ_358 /* UUIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDTests.swift; sourceTree = "<group>"; };
+		OBJ_359 /* UnitIdentifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitIdentifierTests.swift; sourceTree = "<group>"; };
+		OBJ_36 /* ATTReadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTReadResponse.swift; sourceTree = "<group>"; };
+		OBJ_360 /* XCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest.swift; sourceTree = "<group>"; };
+		OBJ_361 /* iBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconTests.swift; sourceTree = "<group>"; };
+		OBJ_362 /* Xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Xcode; sourceTree = SOURCE_ROOT; };
+		OBJ_363 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+		OBJ_37 /* ATTSignedWriteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTSignedWriteCommand.swift; sourceTree = "<group>"; };
+		OBJ_38 /* ATTWriteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTWriteCommand.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ATTWriteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTWriteRequest.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ATTWriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTWriteResponse.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		OBJ_42 /* AdvertisingChannelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingChannelHeader.swift; sourceTree = "<group>"; };
+		OBJ_43 /* AdvertisingInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingInterval.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		OBJ_45 /* BitMaskOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskOption.swift; sourceTree = "<group>"; };
+		OBJ_46 /* BluetoothHostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothHostController.swift; sourceTree = "<group>"; };
+		OBJ_47 /* BluetoothUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothUUID.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		OBJ_49 /* ByteSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteSwap.swift; sourceTree = "<group>"; };
+		OBJ_50 /* ByteValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteValue.swift; sourceTree = "<group>"; };
+		OBJ_51 /* ClassOfDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassOfDevice.swift; sourceTree = "<group>"; };
+		OBJ_52 /* CompanyIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyIdentifier.swift; sourceTree = "<group>"; };
+		OBJ_53 /* CompanyIdentifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyIdentifierExtension.swift; sourceTree = "<group>"; };
+		OBJ_54 /* ConnectionAcceptTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionAcceptTimeout.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		OBJ_56 /* DefinedCompanies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinedCompanies.swift; sourceTree = "<group>"; };
+		OBJ_57 /* DefinedUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinedUUID.swift; sourceTree = "<group>"; };
+		OBJ_58 /* DefinedUUIDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinedUUIDExtension.swift; sourceTree = "<group>"; };
+		OBJ_59 /* GAP3DInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAP3DInformation.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* GAPAdvertisingInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPAdvertisingInterval.swift; sourceTree = "<group>"; };
+		OBJ_61 /* GAPAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPAppearance.swift; sourceTree = "<group>"; };
+		OBJ_62 /* GAPAppearanceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPAppearanceData.swift; sourceTree = "<group>"; };
+		OBJ_63 /* GAPChannelMapUpdateIndication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPChannelMapUpdateIndication.swift; sourceTree = "<group>"; };
+		OBJ_64 /* GAPClassOfDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPClassOfDevice.swift; sourceTree = "<group>"; };
+		OBJ_65 /* GAPCompleteListOf128BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPCompleteListOf128BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_66 /* GAPCompleteListOf16BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPCompleteListOf16BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_67 /* GAPCompleteListOf32BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPCompleteListOf32BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_68 /* GAPCompleteLocalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPCompleteLocalName.swift; sourceTree = "<group>"; };
+		OBJ_69 /* GAPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPData.swift; sourceTree = "<group>"; };
+		OBJ_70 /* GAPDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPDataType.swift; sourceTree = "<group>"; };
+		OBJ_71 /* GAPFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPFlags.swift; sourceTree = "<group>"; };
+		OBJ_72 /* GAPIncompleteListOf128BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPIncompleteListOf128BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_73 /* GAPIncompleteListOf16BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPIncompleteListOf16BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_74 /* GAPIncompleteListOf32BitServiceClassUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPIncompleteListOf32BitServiceClassUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_75 /* GAPIndoorPositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPIndoorPositioning.swift; sourceTree = "<group>"; };
+		OBJ_76 /* GAPLEDeviceAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPLEDeviceAddress.swift; sourceTree = "<group>"; };
+		OBJ_77 /* GAPLERole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPLERole.swift; sourceTree = "<group>"; };
+		OBJ_78 /* GAPLESecureConnectionsConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPLESecureConnectionsConfirmation.swift; sourceTree = "<group>"; };
+		OBJ_79 /* GAPLESecureConnectionsRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPLESecureConnectionsRandom.swift; sourceTree = "<group>"; };
+		OBJ_8 /* ATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATT.swift; sourceTree = "<group>"; };
+		OBJ_80 /* GAPLESupportedFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPLESupportedFeatures.swift; sourceTree = "<group>"; };
+		OBJ_81 /* GAPListOf128BitServiceSolicitationUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPListOf128BitServiceSolicitationUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_82 /* GAPListOf16BitServiceSolicitationUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPListOf16BitServiceSolicitationUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_83 /* GAPListOf32BitServiceSolicitationUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPListOf32BitServiceSolicitationUUIDs.swift; sourceTree = "<group>"; };
+		OBJ_84 /* GAPManufacturerSpecificData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPManufacturerSpecificData.swift; sourceTree = "<group>"; };
+		OBJ_85 /* GAPMeshBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPMeshBeacon.swift; sourceTree = "<group>"; };
+		OBJ_86 /* GAPMeshMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPMeshMessage.swift; sourceTree = "<group>"; };
+		OBJ_87 /* GAPPBADV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPPBADV.swift; sourceTree = "<group>"; };
+		OBJ_88 /* GAPPublicTargetAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPPublicTargetAddress.swift; sourceTree = "<group>"; };
+		OBJ_89 /* GAPRandomTargetAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPRandomTargetAddress.swift; sourceTree = "<group>"; };
+		OBJ_9 /* ATTConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTConnection.swift; sourceTree = "<group>"; };
+		OBJ_90 /* GAPSecurityManagerOOBFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPSecurityManagerOOBFlags.swift; sourceTree = "<group>"; };
+		OBJ_91 /* GAPSecurityManagerTKValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPSecurityManagerTKValue.swift; sourceTree = "<group>"; };
+		OBJ_92 /* GAPServiceData128BitUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPServiceData128BitUUID.swift; sourceTree = "<group>"; };
+		OBJ_93 /* GAPServiceData16BitUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPServiceData16BitUUID.swift; sourceTree = "<group>"; };
+		OBJ_94 /* GAPServiceData32BitUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPServiceData32BitUUID.swift; sourceTree = "<group>"; };
+		OBJ_95 /* GAPShortLocalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPShortLocalName.swift; sourceTree = "<group>"; };
+		OBJ_96 /* GAPSimplePairingHashC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPSimplePairingHashC.swift; sourceTree = "<group>"; };
+		OBJ_97 /* GAPSimplePairingRandomizerR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPSimplePairingRandomizerR.swift; sourceTree = "<group>"; };
+		OBJ_98 /* GAPSlaveConnectionIntervalRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPSlaveConnectionIntervalRange.swift; sourceTree = "<group>"; };
+		OBJ_99 /* GAPTransportDiscoveryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAPTransportDiscoveryData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_742 /* Bluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_336 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_337 /* BluetoothTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_337 /* BluetoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_338 /* AddressTests.swift */,
+				OBJ_339 /* AttributeProtocolTests.swift */,
+				OBJ_340 /* BluetoothTests.swift */,
+				OBJ_341 /* BluetoothUUIDTests.swift */,
+				OBJ_342 /* CompanyIdentifierTests.swift */,
+				OBJ_343 /* DarwinTests.swift */,
+				OBJ_344 /* DefinedUUIDTests.swift */,
+				OBJ_345 /* GAPTests.swift */,
+				OBJ_346 /* GATTCharacteristicTests.swift */,
+				OBJ_347 /* GATTDatabaseTests.swift */,
+				OBJ_348 /* GATTDescriptorTests.swift */,
+				OBJ_349 /* GATTTests.swift */,
+				OBJ_350 /* HCITests.swift */,
+				OBJ_351 /* HostController.swift */,
+				OBJ_352 /* IntegerTests.swift */,
+				OBJ_353 /* L2CAPSocket.swift */,
+				OBJ_354 /* TestProfile.swift */,
+				OBJ_355 /* UInt128Tests.swift */,
+				OBJ_356 /* UInt256Tests.swift */,
+				OBJ_357 /* UInt512Tests.swift */,
+				OBJ_358 /* UUIDTests.swift */,
+				OBJ_359 /* UnitIdentifierTests.swift */,
+				OBJ_360 /* XCTest.swift */,
+				OBJ_361 /* iBeaconTests.swift */,
+			);
+			name = BluetoothTests;
+			path = Tests/BluetoothTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Bluetooth::BluetoothTests::Product" /* BluetoothTests.xctest */,
+				"Bluetooth::Bluetooth::Product" /* Bluetooth.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_336 /* Tests */,
+				OBJ_362 /* Xcode */,
+				OBJ_363 /* Assets */,
+				OBJ_364 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* ATT.swift */,
+				OBJ_9 /* ATTConnection.swift */,
+				OBJ_10 /* ATTError.swift */,
+				OBJ_11 /* ATTErrorResponse.swift */,
+				OBJ_12 /* ATTExecuteWriteRequest.swift */,
+				OBJ_13 /* ATTExecuteWriteResponse.swift */,
+				OBJ_14 /* ATTFindByTypeRequest.swift */,
+				OBJ_15 /* ATTFindByTypeResponse.swift */,
+				OBJ_16 /* ATTFindInformationRequest.swift */,
+				OBJ_17 /* ATTFindInformationResponse.swift */,
+				OBJ_18 /* ATTHandleValueConfirmation.swift */,
+				OBJ_19 /* ATTHandleValueIndication.swift */,
+				OBJ_20 /* ATTHandleValueNotification.swift */,
+				OBJ_21 /* ATTMaximumTransmissionUnit.swift */,
+				OBJ_22 /* ATTMaximumTransmissionUnitRequest.swift */,
+				OBJ_23 /* ATTMaximumTransmissionUnitResponse.swift */,
+				OBJ_24 /* ATTPrepareWriteRequest.swift */,
+				OBJ_25 /* ATTPrepareWriteResponse.swift */,
+				OBJ_26 /* ATTProtocolDataUnit.swift */,
+				OBJ_27 /* ATTReadBlobRequest.swift */,
+				OBJ_28 /* ATTReadBlobResponse.swift */,
+				OBJ_29 /* ATTReadByGroupTypeRequest.swift */,
+				OBJ_30 /* ATTReadByGroupTypeResponse.swift */,
+				OBJ_31 /* ATTReadByTypeRequest.swift */,
+				OBJ_32 /* ATTReadByTypeResponse.swift */,
+				OBJ_33 /* ATTReadMultipleRequest.swift */,
+				OBJ_34 /* ATTReadMultipleResponse.swift */,
+				OBJ_35 /* ATTReadRequest.swift */,
+				OBJ_36 /* ATTReadResponse.swift */,
+				OBJ_37 /* ATTSignedWriteCommand.swift */,
+				OBJ_38 /* ATTWriteCommand.swift */,
+				OBJ_39 /* ATTWriteRequest.swift */,
+				OBJ_40 /* ATTWriteResponse.swift */,
+				OBJ_41 /* Address.swift */,
+				OBJ_42 /* AdvertisingChannelHeader.swift */,
+				OBJ_43 /* AdvertisingInterval.swift */,
+				OBJ_44 /* Array.swift */,
+				OBJ_45 /* BitMaskOption.swift */,
+				OBJ_46 /* BluetoothHostController.swift */,
+				OBJ_47 /* BluetoothUUID.swift */,
+				OBJ_48 /* Bool.swift */,
+				OBJ_49 /* ByteSwap.swift */,
+				OBJ_50 /* ByteValue.swift */,
+				OBJ_51 /* ClassOfDevice.swift */,
+				OBJ_52 /* CompanyIdentifier.swift */,
+				OBJ_53 /* CompanyIdentifierExtension.swift */,
+				OBJ_54 /* ConnectionAcceptTimeout.swift */,
+				OBJ_55 /* Data.swift */,
+				OBJ_56 /* DefinedCompanies.swift */,
+				OBJ_57 /* DefinedUUID.swift */,
+				OBJ_58 /* DefinedUUIDExtension.swift */,
+				OBJ_59 /* GAP3DInformation.swift */,
+				OBJ_60 /* GAPAdvertisingInterval.swift */,
+				OBJ_61 /* GAPAppearance.swift */,
+				OBJ_62 /* GAPAppearanceData.swift */,
+				OBJ_63 /* GAPChannelMapUpdateIndication.swift */,
+				OBJ_64 /* GAPClassOfDevice.swift */,
+				OBJ_65 /* GAPCompleteListOf128BitServiceClassUUIDs.swift */,
+				OBJ_66 /* GAPCompleteListOf16BitServiceClassUUIDs.swift */,
+				OBJ_67 /* GAPCompleteListOf32BitServiceClassUUIDs.swift */,
+				OBJ_68 /* GAPCompleteLocalName.swift */,
+				OBJ_69 /* GAPData.swift */,
+				OBJ_70 /* GAPDataType.swift */,
+				OBJ_71 /* GAPFlags.swift */,
+				OBJ_72 /* GAPIncompleteListOf128BitServiceClassUUIDs.swift */,
+				OBJ_73 /* GAPIncompleteListOf16BitServiceClassUUIDs.swift */,
+				OBJ_74 /* GAPIncompleteListOf32BitServiceClassUUIDs.swift */,
+				OBJ_75 /* GAPIndoorPositioning.swift */,
+				OBJ_76 /* GAPLEDeviceAddress.swift */,
+				OBJ_77 /* GAPLERole.swift */,
+				OBJ_78 /* GAPLESecureConnectionsConfirmation.swift */,
+				OBJ_79 /* GAPLESecureConnectionsRandom.swift */,
+				OBJ_80 /* GAPLESupportedFeatures.swift */,
+				OBJ_81 /* GAPListOf128BitServiceSolicitationUUIDs.swift */,
+				OBJ_82 /* GAPListOf16BitServiceSolicitationUUIDs.swift */,
+				OBJ_83 /* GAPListOf32BitServiceSolicitationUUIDs.swift */,
+				OBJ_84 /* GAPManufacturerSpecificData.swift */,
+				OBJ_85 /* GAPMeshBeacon.swift */,
+				OBJ_86 /* GAPMeshMessage.swift */,
+				OBJ_87 /* GAPPBADV.swift */,
+				OBJ_88 /* GAPPublicTargetAddress.swift */,
+				OBJ_89 /* GAPRandomTargetAddress.swift */,
+				OBJ_90 /* GAPSecurityManagerOOBFlags.swift */,
+				OBJ_91 /* GAPSecurityManagerTKValue.swift */,
+				OBJ_92 /* GAPServiceData128BitUUID.swift */,
+				OBJ_93 /* GAPServiceData16BitUUID.swift */,
+				OBJ_94 /* GAPServiceData32BitUUID.swift */,
+				OBJ_95 /* GAPShortLocalName.swift */,
+				OBJ_96 /* GAPSimplePairingHashC.swift */,
+				OBJ_97 /* GAPSimplePairingRandomizerR.swift */,
+				OBJ_98 /* GAPSlaveConnectionIntervalRange.swift */,
+				OBJ_99 /* GAPTransportDiscoveryData.swift */,
+				OBJ_100 /* GAPTxPowerLevel.swift */,
+				OBJ_101 /* GAPURI.swift */,
+				OBJ_102 /* GATT.swift */,
+				OBJ_103 /* GATTAerobicHeartRateLowerLimit.swift */,
+				OBJ_104 /* GATTAerobicHeartRateUpperLimit.swift */,
+				OBJ_105 /* GATTAerobicThreshold.swift */,
+				OBJ_106 /* GATTAge.swift */,
+				OBJ_107 /* GATTAggregateFormatDescriptor.swift */,
+				OBJ_108 /* GATTAlertCategory.swift */,
+				OBJ_109 /* GATTAlertCategoryBitMask.swift */,
+				OBJ_110 /* GATTAlertLevel.swift */,
+				OBJ_111 /* GATTAlertNotificationControlPoint.swift */,
+				OBJ_112 /* GATTAlertNotificationService.swift */,
+				OBJ_113 /* GATTAlertStatus.swift */,
+				OBJ_114 /* GATTAltitude.swift */,
+				OBJ_115 /* GATTAnaerobicHeartRateLowerLimit.swift */,
+				OBJ_116 /* GATTAnaerobicHeartRateUpperLimit.swift */,
+				OBJ_117 /* GATTAnalog.swift */,
+				OBJ_118 /* GATTAnalogOutput.swift */,
+				OBJ_119 /* GATTAttributes.swift */,
+				OBJ_120 /* GATTBarometricPressureTrend.swift */,
+				OBJ_121 /* GATTBatteryLevel.swift */,
+				OBJ_122 /* GATTBatteryPowerState.swift */,
+				OBJ_123 /* GATTBatteryService.swift */,
+				OBJ_124 /* GATTBloodPressureFeature.swift */,
+				OBJ_125 /* GATTBloodPressureManagement.swift */,
+				OBJ_126 /* GATTBloodPressureService.swift */,
+				OBJ_127 /* GATTBodySensorLocation.swift */,
+				OBJ_128 /* GATTBootKeyboardInputReport.swift */,
+				OBJ_129 /* GATTBootKeyboardOutputReport.swift */,
+				OBJ_130 /* GATTBootMouseInputReport.swift */,
+				OBJ_131 /* GATTCGMSessionRunTime.swift */,
+				OBJ_132 /* GATTCentralAddressResolution.swift */,
+				OBJ_133 /* GATTCharacteristic.swift */,
+				OBJ_134 /* GATTCharacteristicExtendedProperties.swift */,
+				OBJ_135 /* GATTCharacteristicFormatType.swift */,
+				OBJ_136 /* GATTClient.swift */,
+				OBJ_137 /* GATTClientCharacteristicConfiguration.swift */,
+				OBJ_138 /* GATTDatabase.swift */,
+				OBJ_139 /* GATTDateTime.swift */,
+				OBJ_140 /* GATTDescriptor.swift */,
+				OBJ_141 /* GATTExternalReportReference.swift */,
+				OBJ_142 /* GATTFirmwareRevisionString.swift */,
+				OBJ_143 /* GATTFormatDescriptor.swift */,
+				OBJ_144 /* GATTManufacturerNameString.swift */,
+				OBJ_145 /* GATTModelNumber.swift */,
+				OBJ_146 /* GATTNewAlert.swift */,
+				OBJ_147 /* GATTNumberOfDigitals.swift */,
+				OBJ_148 /* GATTPnPID.swift */,
+				OBJ_149 /* GATTProfile.swift */,
+				OBJ_150 /* GATTReportReference.swift */,
+				OBJ_151 /* GATTServer.swift */,
+				OBJ_152 /* GATTServerCharacteristicConfiguration.swift */,
+				OBJ_153 /* GATTService.swift */,
+				OBJ_154 /* GATTSoftwareRevisionString.swift */,
+				OBJ_155 /* GATTSupportedNewAlertCategory.swift */,
+				OBJ_156 /* GATTSupportedUnreadAlertCategory.swift */,
+				OBJ_157 /* GATTSystemID.swift */,
+				OBJ_158 /* GATTTimeTriggerSetting.swift */,
+				OBJ_159 /* GATTUnreadAlertStatus.swift */,
+				OBJ_160 /* GATTUserDescription.swift */,
+				OBJ_161 /* HCI.swift */,
+				OBJ_162 /* HCICommand.swift */,
+				OBJ_163 /* HCICommandComplete.swift */,
+				OBJ_164 /* HCICommandStatus.swift */,
+				OBJ_165 /* HCICommandTimeout.swift */,
+				OBJ_166 /* HCIEncryptionChange.swift */,
+				OBJ_167 /* HCIEncryptionKeyRefreshComplete.swift */,
+				OBJ_168 /* HCIError.swift */,
+				OBJ_169 /* HCIEvent.swift */,
+				OBJ_170 /* HCIGeneralEvent.swift */,
+				OBJ_171 /* HCIHoldMode.swift */,
+				OBJ_172 /* HCIInquiry.swift */,
+				OBJ_173 /* HCILEAddDeviceToPeriodicAdvertiserList.swift */,
+				OBJ_174 /* HCILEAddDeviceToResolvingList.swift */,
+				OBJ_175 /* HCILEAddDeviceToWhiteList.swift */,
+				OBJ_176 /* HCILEAdvertisingReport.swift */,
+				OBJ_177 /* HCILEAdvertisingSetTerminated.swift */,
+				OBJ_178 /* HCILEChannelSelectionAlgorithm.swift */,
+				OBJ_179 /* HCILEConnectionComplete.swift */,
+				OBJ_180 /* HCILEConnectionUpdateComplete.swift */,
+				OBJ_181 /* HCILECreateConnection.swift */,
+				OBJ_182 /* HCILEDataLengthChange.swift */,
+				OBJ_183 /* HCILEDirectedAdvertisingReport.swift */,
+				OBJ_184 /* HCILEEncrypt.swift */,
+				OBJ_185 /* HCILEEnhancedConnectionComplete.swift */,
+				OBJ_186 /* HCILEEnhancedReceiverTest.swift */,
+				OBJ_187 /* HCILEEnhancedTransmitterTest.swift */,
+				OBJ_188 /* HCILEExtendedAdvertisingReport.swift */,
+				OBJ_189 /* HCILEExtendedCreateConnection.swift */,
+				OBJ_190 /* HCILEGenerateDHKey.swift */,
+				OBJ_191 /* HCILEGenerateDHKeyComplete.swift */,
+				OBJ_192 /* HCILELongTermKeyRequest.swift */,
+				OBJ_193 /* HCILELongTermKeyRequestNegativeReply.swift */,
+				OBJ_194 /* HCILELongTermKeyRequestReply.swift */,
+				OBJ_195 /* HCILEPeriodicAdvertisingCreateSync.swift */,
+				OBJ_196 /* HCILEPeriodicAdvertisingReport.swift */,
+				OBJ_197 /* HCILEPeriodicAdvertisingSyncEstablished.swift */,
+				OBJ_198 /* HCILEPeriodicAdvertisingSyncLost.swift */,
+				OBJ_199 /* HCILEPeriodicAdvertisingTerminateSync.swift */,
+				OBJ_200 /* HCILEPhyUpdateComplete.swift */,
+				OBJ_201 /* HCILERandom.swift */,
+				OBJ_202 /* HCILEReadAdvertisingChannelTxPower.swift */,
+				OBJ_203 /* HCILEReadBufferSize.swift */,
+				OBJ_204 /* HCILEReadChannelMap.swift */,
+				OBJ_205 /* HCILEReadLocalP256PublicKeyComplete.swift */,
+				OBJ_206 /* HCILEReadLocalResolvableAddressReturn.swift */,
+				OBJ_207 /* HCILEReadLocalSupportedFeatures.swift */,
+				OBJ_208 /* HCILEReadMaximumAdvertisingDataLength.swift */,
+				OBJ_209 /* HCILEReadMaximumDataLength.swift */,
+				OBJ_210 /* HCILEReadNumberOfSupportedAdvertisingSets.swift */,
+				OBJ_211 /* HCILEReadPeerResolvableAddressReturn.swift */,
+				OBJ_212 /* HCILEReadPeriodicAdvertisingListSize.swift */,
+				OBJ_213 /* HCILEReadPhy.swift */,
+				OBJ_214 /* HCILEReadRemoteUsedFeatures.swift */,
+				OBJ_215 /* HCILEReadRemoteUsedFeaturesComplete.swift */,
+				OBJ_216 /* HCILEReadResolvingListSize.swift */,
+				OBJ_217 /* HCILEReadRfPathCompensation.swift */,
+				OBJ_218 /* HCILEReadSuggestedDefaultDataLength.swift */,
+				OBJ_219 /* HCILEReadSupportedStates.swift */,
+				OBJ_220 /* HCILEReadTransmitPower.swift */,
+				OBJ_221 /* HCILEReadWhiteListSize.swift */,
+				OBJ_222 /* HCILEReceiverTest.swift */,
+				OBJ_223 /* HCILERemoteConnectionParameterRequest.swift */,
+				OBJ_224 /* HCILERemoteConnectionParameterRequestNegativeReply.swift */,
+				OBJ_225 /* HCILERemoteConnectionParameterRequestReply.swift */,
+				OBJ_226 /* HCILERemoveAdvertisingSet.swift */,
+				OBJ_227 /* HCILERemoveDeviceFromResolvingList.swift */,
+				OBJ_228 /* HCILERemoveDeviceFromWhiteList.swift */,
+				OBJ_229 /* HCILERemoveDeviceToPeriodicAdvertiserList.swift */,
+				OBJ_230 /* HCILEScanRequestReceived.swift */,
+				OBJ_231 /* HCILESetAddressResolutionEnable.swift */,
+				OBJ_232 /* HCILESetAdvertiseEnable.swift */,
+				OBJ_233 /* HCILESetAdvertisingData.swift */,
+				OBJ_234 /* HCILESetAdvertisingParameters.swift */,
+				OBJ_235 /* HCILESetAdvertisingSetRandomAddress.swift */,
+				OBJ_236 /* HCILESetDataLength.swift */,
+				OBJ_237 /* HCILESetDefaultPhy.swift */,
+				OBJ_238 /* HCILESetEventMask.swift */,
+				OBJ_239 /* HCILESetExtendedAdvertisingData.swift */,
+				OBJ_240 /* HCILESetExtendedAdvertisingParameters.swift */,
+				OBJ_241 /* HCILESetExtendedScanEnable.swift */,
+				OBJ_242 /* HCILESetExtendedScanParameters.swift */,
+				OBJ_243 /* HCILESetExtendedScanResponseData.swift */,
+				OBJ_244 /* HCILESetHostChannelClassification.swift */,
+				OBJ_245 /* HCILESetPeriodicAdvertisingData.swift */,
+				OBJ_246 /* HCILESetPeriodicAdvertisingEnable.swift */,
+				OBJ_247 /* HCILESetPeriodicAdvertisingParameters.swift */,
+				OBJ_248 /* HCILESetPhy.swift */,
+				OBJ_249 /* HCILESetPrivacyMode.swift */,
+				OBJ_250 /* HCILESetRandomAddress.swift */,
+				OBJ_251 /* HCILESetResolvablePrivateAddressTimeout.swift */,
+				OBJ_252 /* HCILESetScanEnable.swift */,
+				OBJ_253 /* HCILESetScanParameters.swift */,
+				OBJ_254 /* HCILESetScanResponseData.swift */,
+				OBJ_255 /* HCILEStartEncryption.swift */,
+				OBJ_256 /* HCILETestEnd.swift */,
+				OBJ_257 /* HCILETransmitterTest.swift */,
+				OBJ_258 /* HCILEUpdateConnection.swift */,
+				OBJ_259 /* HCILEWriteRfPathCompensation.swift */,
+				OBJ_260 /* HCILEWriteSuggestedDefaultDataLength.swift */,
+				OBJ_261 /* HCILowEnergyMetaEvent.swift */,
+				OBJ_262 /* HCIPacketHeader.swift */,
+				OBJ_263 /* HCIReadConnectionAcceptTimeout.swift */,
+				OBJ_264 /* HCIReadDeviceAddress.swift */,
+				OBJ_265 /* HCIReadLocalName.swift */,
+				OBJ_266 /* HCIReadLocalVersionInformation.swift */,
+				OBJ_267 /* HCIRemoteNameRequest.swift */,
+				OBJ_268 /* HCIRemoteNameRequestComplete.swift */,
+				OBJ_269 /* HCISetEventFilter.swift */,
+				OBJ_270 /* HCIVersion.swift */,
+				OBJ_271 /* HCIWriteConnectionAcceptTimeout.swift */,
+				OBJ_272 /* HCIWriteLocalName.swift */,
+				OBJ_273 /* Hexadecimal.swift */,
+				OBJ_274 /* HostControllerBasebandCommand.swift */,
+				OBJ_275 /* InformationalCommand.swift */,
+				OBJ_276 /* Integer.swift */,
+				OBJ_277 /* L2CAPSocket.swift */,
+				OBJ_278 /* LinkControlCommand.swift */,
+				OBJ_279 /* LinkPolicyCommand.swift */,
+				OBJ_280 /* LowEnergyAddressType.swift */,
+				OBJ_281 /* LowEnergyAdvertiserAddressType.swift */,
+				OBJ_282 /* LowEnergyAdvertising.swift */,
+				OBJ_283 /* LowEnergyAdvertisingData.swift */,
+				OBJ_284 /* LowEnergyAllPhys.swift */,
+				OBJ_285 /* LowEnergyChannelMap.swift */,
+				OBJ_286 /* LowEnergyClockAccuracy.swift */,
+				OBJ_287 /* LowEnergyCommand.swift */,
+				OBJ_288 /* LowEnergyConnection.swift */,
+				OBJ_289 /* LowEnergyConnectionInterval.swift */,
+				OBJ_290 /* LowEnergyConnectionIntervalRange.swift */,
+				OBJ_291 /* LowEnergyConnectionLatency.swift */,
+				OBJ_292 /* LowEnergyConnectionLength.swift */,
+				OBJ_293 /* LowEnergyEvent.swift */,
+				OBJ_294 /* LowEnergyFeature.swift */,
+				OBJ_295 /* LowEnergyFragmentPreference.swift */,
+				OBJ_296 /* LowEnergyMaxTxOctets.swift */,
+				OBJ_297 /* LowEnergyMaxTxTime.swift */,
+				OBJ_298 /* LowEnergyPacketPayload.swift */,
+				OBJ_299 /* LowEnergyPeerIdentifyAddressType.swift */,
+				OBJ_300 /* LowEnergyPhyOptions.swift */,
+				OBJ_301 /* LowEnergyResolvingList.swift */,
+				OBJ_302 /* LowEnergyRfRxPathCompensationValue.swift */,
+				OBJ_303 /* LowEnergyRfTxPathCompensationValue.swift */,
+				OBJ_304 /* LowEnergyRole.swift */,
+				OBJ_305 /* LowEnergyRxChannel.swift */,
+				OBJ_306 /* LowEnergyRxPhy.swift */,
+				OBJ_307 /* LowEnergyRxPhys.swift */,
+				OBJ_308 /* LowEnergyScan.swift */,
+				OBJ_309 /* LowEnergyScanInterval.swift */,
+				OBJ_310 /* LowEnergyScanTimeInterval.swift */,
+				OBJ_311 /* LowEnergyState.swift */,
+				OBJ_312 /* LowEnergySupervisionTimeout.swift */,
+				OBJ_313 /* LowEnergyTxChannel.swift */,
+				OBJ_314 /* LowEnergyTxPhy.swift */,
+				OBJ_315 /* LowEnergyTxPhys.swift */,
+				OBJ_316 /* LowEnergyTxPower.swift */,
+				OBJ_317 /* LowEnergyWhiteList.swift */,
+				OBJ_318 /* LowEnergyWhiteListDevice.swift */,
+				OBJ_319 /* POSIXError.swift */,
+				OBJ_320 /* ProtocolServiceMultiplexer.swift */,
+				OBJ_321 /* RSSI.swift */,
+				OBJ_322 /* Range.swift */,
+				OBJ_323 /* SFloat.swift */,
+				OBJ_324 /* SecurityLevel.swift */,
+				OBJ_325 /* StatusParametersCommand.swift */,
+				OBJ_326 /* TestingCommand.swift */,
+				OBJ_327 /* UInt128.swift */,
+				OBJ_328 /* UInt256.swift */,
+				OBJ_329 /* UInt512.swift */,
+				OBJ_330 /* UUID.swift */,
+				OBJ_331 /* Unit.swift */,
+				OBJ_332 /* UnitIdentifier.swift */,
+				OBJ_333 /* UnitIdentifierExtension.swift */,
+				OBJ_334 /* VendorCommand.swift */,
+				OBJ_335 /* iBeacon.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Bluetooth::Bluetooth" /* Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_368 /* Build configuration list for PBXNativeTarget "Bluetooth" */;
+			buildPhases = (
+				OBJ_371 /* Sources */,
+				OBJ_700 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth;
+			productName = Bluetooth;
+			productReference = "Bluetooth::Bluetooth::Product" /* Bluetooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Bluetooth::BluetoothTests" /* BluetoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_713 /* Build configuration list for PBXNativeTarget "BluetoothTests" */;
+			buildPhases = (
+				OBJ_716 /* Sources */,
+				OBJ_741 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_743 /* PBXTargetDependency */,
+			);
+			name = BluetoothTests;
+			productName = BluetoothTests;
+			productReference = "Bluetooth::BluetoothTests::Product" /* BluetoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Bluetooth::SwiftPMPackageDescription" /* BluetoothPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_702 /* Build configuration list for PBXNativeTarget "BluetoothPackageDescription" */;
+			buildPhases = (
+				OBJ_705 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothPackageDescription;
+			productName = BluetoothPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Bluetooth::Bluetooth" /* Bluetooth */,
+				"Bluetooth::SwiftPMPackageDescription" /* BluetoothPackageDescription */,
+				"Bluetooth::BluetoothPackageTests::ProductTarget" /* BluetoothPackageTests */,
+				"Bluetooth::BluetoothTests" /* BluetoothTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_372 /* ATT.swift in Sources */,
+				OBJ_373 /* ATTConnection.swift in Sources */,
+				OBJ_374 /* ATTError.swift in Sources */,
+				OBJ_375 /* ATTErrorResponse.swift in Sources */,
+				OBJ_376 /* ATTExecuteWriteRequest.swift in Sources */,
+				OBJ_377 /* ATTExecuteWriteResponse.swift in Sources */,
+				OBJ_378 /* ATTFindByTypeRequest.swift in Sources */,
+				OBJ_379 /* ATTFindByTypeResponse.swift in Sources */,
+				OBJ_380 /* ATTFindInformationRequest.swift in Sources */,
+				OBJ_381 /* ATTFindInformationResponse.swift in Sources */,
+				OBJ_382 /* ATTHandleValueConfirmation.swift in Sources */,
+				OBJ_383 /* ATTHandleValueIndication.swift in Sources */,
+				OBJ_384 /* ATTHandleValueNotification.swift in Sources */,
+				OBJ_385 /* ATTMaximumTransmissionUnit.swift in Sources */,
+				OBJ_386 /* ATTMaximumTransmissionUnitRequest.swift in Sources */,
+				OBJ_387 /* ATTMaximumTransmissionUnitResponse.swift in Sources */,
+				OBJ_388 /* ATTPrepareWriteRequest.swift in Sources */,
+				OBJ_389 /* ATTPrepareWriteResponse.swift in Sources */,
+				OBJ_390 /* ATTProtocolDataUnit.swift in Sources */,
+				OBJ_391 /* ATTReadBlobRequest.swift in Sources */,
+				OBJ_392 /* ATTReadBlobResponse.swift in Sources */,
+				OBJ_393 /* ATTReadByGroupTypeRequest.swift in Sources */,
+				OBJ_394 /* ATTReadByGroupTypeResponse.swift in Sources */,
+				OBJ_395 /* ATTReadByTypeRequest.swift in Sources */,
+				OBJ_396 /* ATTReadByTypeResponse.swift in Sources */,
+				OBJ_397 /* ATTReadMultipleRequest.swift in Sources */,
+				OBJ_398 /* ATTReadMultipleResponse.swift in Sources */,
+				OBJ_399 /* ATTReadRequest.swift in Sources */,
+				OBJ_400 /* ATTReadResponse.swift in Sources */,
+				OBJ_401 /* ATTSignedWriteCommand.swift in Sources */,
+				OBJ_402 /* ATTWriteCommand.swift in Sources */,
+				OBJ_403 /* ATTWriteRequest.swift in Sources */,
+				OBJ_404 /* ATTWriteResponse.swift in Sources */,
+				OBJ_405 /* Address.swift in Sources */,
+				OBJ_406 /* AdvertisingChannelHeader.swift in Sources */,
+				OBJ_407 /* AdvertisingInterval.swift in Sources */,
+				OBJ_408 /* Array.swift in Sources */,
+				OBJ_409 /* BitMaskOption.swift in Sources */,
+				OBJ_410 /* BluetoothHostController.swift in Sources */,
+				OBJ_411 /* BluetoothUUID.swift in Sources */,
+				OBJ_412 /* Bool.swift in Sources */,
+				OBJ_413 /* ByteSwap.swift in Sources */,
+				OBJ_414 /* ByteValue.swift in Sources */,
+				OBJ_415 /* ClassOfDevice.swift in Sources */,
+				OBJ_416 /* CompanyIdentifier.swift in Sources */,
+				OBJ_417 /* CompanyIdentifierExtension.swift in Sources */,
+				OBJ_418 /* ConnectionAcceptTimeout.swift in Sources */,
+				OBJ_419 /* Data.swift in Sources */,
+				OBJ_420 /* DefinedCompanies.swift in Sources */,
+				OBJ_421 /* DefinedUUID.swift in Sources */,
+				OBJ_422 /* DefinedUUIDExtension.swift in Sources */,
+				OBJ_423 /* GAP3DInformation.swift in Sources */,
+				OBJ_424 /* GAPAdvertisingInterval.swift in Sources */,
+				OBJ_425 /* GAPAppearance.swift in Sources */,
+				OBJ_426 /* GAPAppearanceData.swift in Sources */,
+				OBJ_427 /* GAPChannelMapUpdateIndication.swift in Sources */,
+				OBJ_428 /* GAPClassOfDevice.swift in Sources */,
+				OBJ_429 /* GAPCompleteListOf128BitServiceClassUUIDs.swift in Sources */,
+				OBJ_430 /* GAPCompleteListOf16BitServiceClassUUIDs.swift in Sources */,
+				OBJ_431 /* GAPCompleteListOf32BitServiceClassUUIDs.swift in Sources */,
+				OBJ_432 /* GAPCompleteLocalName.swift in Sources */,
+				OBJ_433 /* GAPData.swift in Sources */,
+				OBJ_434 /* GAPDataType.swift in Sources */,
+				OBJ_435 /* GAPFlags.swift in Sources */,
+				OBJ_436 /* GAPIncompleteListOf128BitServiceClassUUIDs.swift in Sources */,
+				OBJ_437 /* GAPIncompleteListOf16BitServiceClassUUIDs.swift in Sources */,
+				OBJ_438 /* GAPIncompleteListOf32BitServiceClassUUIDs.swift in Sources */,
+				OBJ_439 /* GAPIndoorPositioning.swift in Sources */,
+				OBJ_440 /* GAPLEDeviceAddress.swift in Sources */,
+				OBJ_441 /* GAPLERole.swift in Sources */,
+				OBJ_442 /* GAPLESecureConnectionsConfirmation.swift in Sources */,
+				OBJ_443 /* GAPLESecureConnectionsRandom.swift in Sources */,
+				OBJ_444 /* GAPLESupportedFeatures.swift in Sources */,
+				OBJ_445 /* GAPListOf128BitServiceSolicitationUUIDs.swift in Sources */,
+				OBJ_446 /* GAPListOf16BitServiceSolicitationUUIDs.swift in Sources */,
+				OBJ_447 /* GAPListOf32BitServiceSolicitationUUIDs.swift in Sources */,
+				OBJ_448 /* GAPManufacturerSpecificData.swift in Sources */,
+				OBJ_449 /* GAPMeshBeacon.swift in Sources */,
+				OBJ_450 /* GAPMeshMessage.swift in Sources */,
+				OBJ_451 /* GAPPBADV.swift in Sources */,
+				OBJ_452 /* GAPPublicTargetAddress.swift in Sources */,
+				OBJ_453 /* GAPRandomTargetAddress.swift in Sources */,
+				OBJ_454 /* GAPSecurityManagerOOBFlags.swift in Sources */,
+				OBJ_455 /* GAPSecurityManagerTKValue.swift in Sources */,
+				OBJ_456 /* GAPServiceData128BitUUID.swift in Sources */,
+				OBJ_457 /* GAPServiceData16BitUUID.swift in Sources */,
+				OBJ_458 /* GAPServiceData32BitUUID.swift in Sources */,
+				OBJ_459 /* GAPShortLocalName.swift in Sources */,
+				OBJ_460 /* GAPSimplePairingHashC.swift in Sources */,
+				OBJ_461 /* GAPSimplePairingRandomizerR.swift in Sources */,
+				OBJ_462 /* GAPSlaveConnectionIntervalRange.swift in Sources */,
+				OBJ_463 /* GAPTransportDiscoveryData.swift in Sources */,
+				OBJ_464 /* GAPTxPowerLevel.swift in Sources */,
+				OBJ_465 /* GAPURI.swift in Sources */,
+				OBJ_466 /* GATT.swift in Sources */,
+				OBJ_467 /* GATTAerobicHeartRateLowerLimit.swift in Sources */,
+				OBJ_468 /* GATTAerobicHeartRateUpperLimit.swift in Sources */,
+				OBJ_469 /* GATTAerobicThreshold.swift in Sources */,
+				OBJ_470 /* GATTAge.swift in Sources */,
+				OBJ_471 /* GATTAggregateFormatDescriptor.swift in Sources */,
+				OBJ_472 /* GATTAlertCategory.swift in Sources */,
+				OBJ_473 /* GATTAlertCategoryBitMask.swift in Sources */,
+				OBJ_474 /* GATTAlertLevel.swift in Sources */,
+				OBJ_475 /* GATTAlertNotificationControlPoint.swift in Sources */,
+				OBJ_476 /* GATTAlertNotificationService.swift in Sources */,
+				OBJ_477 /* GATTAlertStatus.swift in Sources */,
+				OBJ_478 /* GATTAltitude.swift in Sources */,
+				OBJ_479 /* GATTAnaerobicHeartRateLowerLimit.swift in Sources */,
+				OBJ_480 /* GATTAnaerobicHeartRateUpperLimit.swift in Sources */,
+				OBJ_481 /* GATTAnalog.swift in Sources */,
+				OBJ_482 /* GATTAnalogOutput.swift in Sources */,
+				OBJ_483 /* GATTAttributes.swift in Sources */,
+				OBJ_484 /* GATTBarometricPressureTrend.swift in Sources */,
+				OBJ_485 /* GATTBatteryLevel.swift in Sources */,
+				OBJ_486 /* GATTBatteryPowerState.swift in Sources */,
+				OBJ_487 /* GATTBatteryService.swift in Sources */,
+				OBJ_488 /* GATTBloodPressureFeature.swift in Sources */,
+				OBJ_489 /* GATTBloodPressureManagement.swift in Sources */,
+				OBJ_490 /* GATTBloodPressureService.swift in Sources */,
+				OBJ_491 /* GATTBodySensorLocation.swift in Sources */,
+				OBJ_492 /* GATTBootKeyboardInputReport.swift in Sources */,
+				OBJ_493 /* GATTBootKeyboardOutputReport.swift in Sources */,
+				OBJ_494 /* GATTBootMouseInputReport.swift in Sources */,
+				OBJ_495 /* GATTCGMSessionRunTime.swift in Sources */,
+				OBJ_496 /* GATTCentralAddressResolution.swift in Sources */,
+				OBJ_497 /* GATTCharacteristic.swift in Sources */,
+				OBJ_498 /* GATTCharacteristicExtendedProperties.swift in Sources */,
+				OBJ_499 /* GATTCharacteristicFormatType.swift in Sources */,
+				OBJ_500 /* GATTClient.swift in Sources */,
+				OBJ_501 /* GATTClientCharacteristicConfiguration.swift in Sources */,
+				OBJ_502 /* GATTDatabase.swift in Sources */,
+				OBJ_503 /* GATTDateTime.swift in Sources */,
+				OBJ_504 /* GATTDescriptor.swift in Sources */,
+				OBJ_505 /* GATTExternalReportReference.swift in Sources */,
+				OBJ_506 /* GATTFirmwareRevisionString.swift in Sources */,
+				OBJ_507 /* GATTFormatDescriptor.swift in Sources */,
+				OBJ_508 /* GATTManufacturerNameString.swift in Sources */,
+				OBJ_509 /* GATTModelNumber.swift in Sources */,
+				OBJ_510 /* GATTNewAlert.swift in Sources */,
+				OBJ_511 /* GATTNumberOfDigitals.swift in Sources */,
+				OBJ_512 /* GATTPnPID.swift in Sources */,
+				OBJ_513 /* GATTProfile.swift in Sources */,
+				OBJ_514 /* GATTReportReference.swift in Sources */,
+				OBJ_515 /* GATTServer.swift in Sources */,
+				OBJ_516 /* GATTServerCharacteristicConfiguration.swift in Sources */,
+				OBJ_517 /* GATTService.swift in Sources */,
+				OBJ_518 /* GATTSoftwareRevisionString.swift in Sources */,
+				OBJ_519 /* GATTSupportedNewAlertCategory.swift in Sources */,
+				OBJ_520 /* GATTSupportedUnreadAlertCategory.swift in Sources */,
+				OBJ_521 /* GATTSystemID.swift in Sources */,
+				OBJ_522 /* GATTTimeTriggerSetting.swift in Sources */,
+				OBJ_523 /* GATTUnreadAlertStatus.swift in Sources */,
+				OBJ_524 /* GATTUserDescription.swift in Sources */,
+				OBJ_525 /* HCI.swift in Sources */,
+				OBJ_526 /* HCICommand.swift in Sources */,
+				OBJ_527 /* HCICommandComplete.swift in Sources */,
+				OBJ_528 /* HCICommandStatus.swift in Sources */,
+				OBJ_529 /* HCICommandTimeout.swift in Sources */,
+				OBJ_530 /* HCIEncryptionChange.swift in Sources */,
+				OBJ_531 /* HCIEncryptionKeyRefreshComplete.swift in Sources */,
+				OBJ_532 /* HCIError.swift in Sources */,
+				OBJ_533 /* HCIEvent.swift in Sources */,
+				OBJ_534 /* HCIGeneralEvent.swift in Sources */,
+				OBJ_535 /* HCIHoldMode.swift in Sources */,
+				OBJ_536 /* HCIInquiry.swift in Sources */,
+				OBJ_537 /* HCILEAddDeviceToPeriodicAdvertiserList.swift in Sources */,
+				OBJ_538 /* HCILEAddDeviceToResolvingList.swift in Sources */,
+				OBJ_539 /* HCILEAddDeviceToWhiteList.swift in Sources */,
+				OBJ_540 /* HCILEAdvertisingReport.swift in Sources */,
+				OBJ_541 /* HCILEAdvertisingSetTerminated.swift in Sources */,
+				OBJ_542 /* HCILEChannelSelectionAlgorithm.swift in Sources */,
+				OBJ_543 /* HCILEConnectionComplete.swift in Sources */,
+				OBJ_544 /* HCILEConnectionUpdateComplete.swift in Sources */,
+				OBJ_545 /* HCILECreateConnection.swift in Sources */,
+				OBJ_546 /* HCILEDataLengthChange.swift in Sources */,
+				OBJ_547 /* HCILEDirectedAdvertisingReport.swift in Sources */,
+				OBJ_548 /* HCILEEncrypt.swift in Sources */,
+				OBJ_549 /* HCILEEnhancedConnectionComplete.swift in Sources */,
+				OBJ_550 /* HCILEEnhancedReceiverTest.swift in Sources */,
+				OBJ_551 /* HCILEEnhancedTransmitterTest.swift in Sources */,
+				OBJ_552 /* HCILEExtendedAdvertisingReport.swift in Sources */,
+				OBJ_553 /* HCILEExtendedCreateConnection.swift in Sources */,
+				OBJ_554 /* HCILEGenerateDHKey.swift in Sources */,
+				OBJ_555 /* HCILEGenerateDHKeyComplete.swift in Sources */,
+				OBJ_556 /* HCILELongTermKeyRequest.swift in Sources */,
+				OBJ_557 /* HCILELongTermKeyRequestNegativeReply.swift in Sources */,
+				OBJ_558 /* HCILELongTermKeyRequestReply.swift in Sources */,
+				OBJ_559 /* HCILEPeriodicAdvertisingCreateSync.swift in Sources */,
+				OBJ_560 /* HCILEPeriodicAdvertisingReport.swift in Sources */,
+				OBJ_561 /* HCILEPeriodicAdvertisingSyncEstablished.swift in Sources */,
+				OBJ_562 /* HCILEPeriodicAdvertisingSyncLost.swift in Sources */,
+				OBJ_563 /* HCILEPeriodicAdvertisingTerminateSync.swift in Sources */,
+				OBJ_564 /* HCILEPhyUpdateComplete.swift in Sources */,
+				OBJ_565 /* HCILERandom.swift in Sources */,
+				OBJ_566 /* HCILEReadAdvertisingChannelTxPower.swift in Sources */,
+				OBJ_567 /* HCILEReadBufferSize.swift in Sources */,
+				OBJ_568 /* HCILEReadChannelMap.swift in Sources */,
+				OBJ_569 /* HCILEReadLocalP256PublicKeyComplete.swift in Sources */,
+				OBJ_570 /* HCILEReadLocalResolvableAddressReturn.swift in Sources */,
+				OBJ_571 /* HCILEReadLocalSupportedFeatures.swift in Sources */,
+				OBJ_572 /* HCILEReadMaximumAdvertisingDataLength.swift in Sources */,
+				OBJ_573 /* HCILEReadMaximumDataLength.swift in Sources */,
+				OBJ_574 /* HCILEReadNumberOfSupportedAdvertisingSets.swift in Sources */,
+				OBJ_575 /* HCILEReadPeerResolvableAddressReturn.swift in Sources */,
+				OBJ_576 /* HCILEReadPeriodicAdvertisingListSize.swift in Sources */,
+				OBJ_577 /* HCILEReadPhy.swift in Sources */,
+				OBJ_578 /* HCILEReadRemoteUsedFeatures.swift in Sources */,
+				OBJ_579 /* HCILEReadRemoteUsedFeaturesComplete.swift in Sources */,
+				OBJ_580 /* HCILEReadResolvingListSize.swift in Sources */,
+				OBJ_581 /* HCILEReadRfPathCompensation.swift in Sources */,
+				OBJ_582 /* HCILEReadSuggestedDefaultDataLength.swift in Sources */,
+				OBJ_583 /* HCILEReadSupportedStates.swift in Sources */,
+				OBJ_584 /* HCILEReadTransmitPower.swift in Sources */,
+				OBJ_585 /* HCILEReadWhiteListSize.swift in Sources */,
+				OBJ_586 /* HCILEReceiverTest.swift in Sources */,
+				OBJ_587 /* HCILERemoteConnectionParameterRequest.swift in Sources */,
+				OBJ_588 /* HCILERemoteConnectionParameterRequestNegativeReply.swift in Sources */,
+				OBJ_589 /* HCILERemoteConnectionParameterRequestReply.swift in Sources */,
+				OBJ_590 /* HCILERemoveAdvertisingSet.swift in Sources */,
+				OBJ_591 /* HCILERemoveDeviceFromResolvingList.swift in Sources */,
+				OBJ_592 /* HCILERemoveDeviceFromWhiteList.swift in Sources */,
+				OBJ_593 /* HCILERemoveDeviceToPeriodicAdvertiserList.swift in Sources */,
+				OBJ_594 /* HCILEScanRequestReceived.swift in Sources */,
+				OBJ_595 /* HCILESetAddressResolutionEnable.swift in Sources */,
+				OBJ_596 /* HCILESetAdvertiseEnable.swift in Sources */,
+				OBJ_597 /* HCILESetAdvertisingData.swift in Sources */,
+				OBJ_598 /* HCILESetAdvertisingParameters.swift in Sources */,
+				OBJ_599 /* HCILESetAdvertisingSetRandomAddress.swift in Sources */,
+				OBJ_600 /* HCILESetDataLength.swift in Sources */,
+				OBJ_601 /* HCILESetDefaultPhy.swift in Sources */,
+				OBJ_602 /* HCILESetEventMask.swift in Sources */,
+				OBJ_603 /* HCILESetExtendedAdvertisingData.swift in Sources */,
+				OBJ_604 /* HCILESetExtendedAdvertisingParameters.swift in Sources */,
+				OBJ_605 /* HCILESetExtendedScanEnable.swift in Sources */,
+				OBJ_606 /* HCILESetExtendedScanParameters.swift in Sources */,
+				OBJ_607 /* HCILESetExtendedScanResponseData.swift in Sources */,
+				OBJ_608 /* HCILESetHostChannelClassification.swift in Sources */,
+				OBJ_609 /* HCILESetPeriodicAdvertisingData.swift in Sources */,
+				OBJ_610 /* HCILESetPeriodicAdvertisingEnable.swift in Sources */,
+				OBJ_611 /* HCILESetPeriodicAdvertisingParameters.swift in Sources */,
+				OBJ_612 /* HCILESetPhy.swift in Sources */,
+				OBJ_613 /* HCILESetPrivacyMode.swift in Sources */,
+				OBJ_614 /* HCILESetRandomAddress.swift in Sources */,
+				OBJ_615 /* HCILESetResolvablePrivateAddressTimeout.swift in Sources */,
+				OBJ_616 /* HCILESetScanEnable.swift in Sources */,
+				OBJ_617 /* HCILESetScanParameters.swift in Sources */,
+				OBJ_618 /* HCILESetScanResponseData.swift in Sources */,
+				OBJ_619 /* HCILEStartEncryption.swift in Sources */,
+				OBJ_620 /* HCILETestEnd.swift in Sources */,
+				OBJ_621 /* HCILETransmitterTest.swift in Sources */,
+				OBJ_622 /* HCILEUpdateConnection.swift in Sources */,
+				OBJ_623 /* HCILEWriteRfPathCompensation.swift in Sources */,
+				OBJ_624 /* HCILEWriteSuggestedDefaultDataLength.swift in Sources */,
+				OBJ_625 /* HCILowEnergyMetaEvent.swift in Sources */,
+				OBJ_626 /* HCIPacketHeader.swift in Sources */,
+				OBJ_627 /* HCIReadConnectionAcceptTimeout.swift in Sources */,
+				OBJ_628 /* HCIReadDeviceAddress.swift in Sources */,
+				OBJ_629 /* HCIReadLocalName.swift in Sources */,
+				OBJ_630 /* HCIReadLocalVersionInformation.swift in Sources */,
+				OBJ_631 /* HCIRemoteNameRequest.swift in Sources */,
+				OBJ_632 /* HCIRemoteNameRequestComplete.swift in Sources */,
+				OBJ_633 /* HCISetEventFilter.swift in Sources */,
+				OBJ_634 /* HCIVersion.swift in Sources */,
+				OBJ_635 /* HCIWriteConnectionAcceptTimeout.swift in Sources */,
+				OBJ_636 /* HCIWriteLocalName.swift in Sources */,
+				OBJ_637 /* Hexadecimal.swift in Sources */,
+				OBJ_638 /* HostControllerBasebandCommand.swift in Sources */,
+				OBJ_639 /* InformationalCommand.swift in Sources */,
+				OBJ_640 /* Integer.swift in Sources */,
+				OBJ_641 /* L2CAPSocket.swift in Sources */,
+				OBJ_642 /* LinkControlCommand.swift in Sources */,
+				OBJ_643 /* LinkPolicyCommand.swift in Sources */,
+				OBJ_644 /* LowEnergyAddressType.swift in Sources */,
+				OBJ_645 /* LowEnergyAdvertiserAddressType.swift in Sources */,
+				OBJ_646 /* LowEnergyAdvertising.swift in Sources */,
+				OBJ_647 /* LowEnergyAdvertisingData.swift in Sources */,
+				OBJ_648 /* LowEnergyAllPhys.swift in Sources */,
+				OBJ_649 /* LowEnergyChannelMap.swift in Sources */,
+				OBJ_650 /* LowEnergyClockAccuracy.swift in Sources */,
+				OBJ_651 /* LowEnergyCommand.swift in Sources */,
+				OBJ_652 /* LowEnergyConnection.swift in Sources */,
+				OBJ_653 /* LowEnergyConnectionInterval.swift in Sources */,
+				OBJ_654 /* LowEnergyConnectionIntervalRange.swift in Sources */,
+				OBJ_655 /* LowEnergyConnectionLatency.swift in Sources */,
+				OBJ_656 /* LowEnergyConnectionLength.swift in Sources */,
+				OBJ_657 /* LowEnergyEvent.swift in Sources */,
+				OBJ_658 /* LowEnergyFeature.swift in Sources */,
+				OBJ_659 /* LowEnergyFragmentPreference.swift in Sources */,
+				OBJ_660 /* LowEnergyMaxTxOctets.swift in Sources */,
+				OBJ_661 /* LowEnergyMaxTxTime.swift in Sources */,
+				OBJ_662 /* LowEnergyPacketPayload.swift in Sources */,
+				OBJ_663 /* LowEnergyPeerIdentifyAddressType.swift in Sources */,
+				OBJ_664 /* LowEnergyPhyOptions.swift in Sources */,
+				OBJ_665 /* LowEnergyResolvingList.swift in Sources */,
+				OBJ_666 /* LowEnergyRfRxPathCompensationValue.swift in Sources */,
+				OBJ_667 /* LowEnergyRfTxPathCompensationValue.swift in Sources */,
+				OBJ_668 /* LowEnergyRole.swift in Sources */,
+				OBJ_669 /* LowEnergyRxChannel.swift in Sources */,
+				OBJ_670 /* LowEnergyRxPhy.swift in Sources */,
+				OBJ_671 /* LowEnergyRxPhys.swift in Sources */,
+				OBJ_672 /* LowEnergyScan.swift in Sources */,
+				OBJ_673 /* LowEnergyScanInterval.swift in Sources */,
+				OBJ_674 /* LowEnergyScanTimeInterval.swift in Sources */,
+				OBJ_675 /* LowEnergyState.swift in Sources */,
+				OBJ_676 /* LowEnergySupervisionTimeout.swift in Sources */,
+				OBJ_677 /* LowEnergyTxChannel.swift in Sources */,
+				OBJ_678 /* LowEnergyTxPhy.swift in Sources */,
+				OBJ_679 /* LowEnergyTxPhys.swift in Sources */,
+				OBJ_680 /* LowEnergyTxPower.swift in Sources */,
+				OBJ_681 /* LowEnergyWhiteList.swift in Sources */,
+				OBJ_682 /* LowEnergyWhiteListDevice.swift in Sources */,
+				OBJ_683 /* POSIXError.swift in Sources */,
+				OBJ_684 /* ProtocolServiceMultiplexer.swift in Sources */,
+				OBJ_685 /* RSSI.swift in Sources */,
+				OBJ_686 /* Range.swift in Sources */,
+				OBJ_687 /* SFloat.swift in Sources */,
+				OBJ_688 /* SecurityLevel.swift in Sources */,
+				OBJ_689 /* StatusParametersCommand.swift in Sources */,
+				OBJ_690 /* TestingCommand.swift in Sources */,
+				OBJ_691 /* UInt128.swift in Sources */,
+				OBJ_692 /* UInt256.swift in Sources */,
+				OBJ_693 /* UInt512.swift in Sources */,
+				OBJ_694 /* UUID.swift in Sources */,
+				OBJ_695 /* Unit.swift in Sources */,
+				OBJ_696 /* UnitIdentifier.swift in Sources */,
+				OBJ_697 /* UnitIdentifierExtension.swift in Sources */,
+				OBJ_698 /* VendorCommand.swift in Sources */,
+				OBJ_699 /* iBeacon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_706 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_717 /* AddressTests.swift in Sources */,
+				OBJ_718 /* AttributeProtocolTests.swift in Sources */,
+				OBJ_719 /* BluetoothTests.swift in Sources */,
+				OBJ_720 /* BluetoothUUIDTests.swift in Sources */,
+				OBJ_721 /* CompanyIdentifierTests.swift in Sources */,
+				OBJ_722 /* DarwinTests.swift in Sources */,
+				OBJ_723 /* DefinedUUIDTests.swift in Sources */,
+				OBJ_724 /* GAPTests.swift in Sources */,
+				OBJ_725 /* GATTCharacteristicTests.swift in Sources */,
+				OBJ_726 /* GATTDatabaseTests.swift in Sources */,
+				OBJ_727 /* GATTDescriptorTests.swift in Sources */,
+				OBJ_728 /* GATTTests.swift in Sources */,
+				OBJ_729 /* HCITests.swift in Sources */,
+				OBJ_730 /* HostController.swift in Sources */,
+				OBJ_731 /* IntegerTests.swift in Sources */,
+				OBJ_732 /* L2CAPSocket.swift in Sources */,
+				OBJ_733 /* TestProfile.swift in Sources */,
+				OBJ_734 /* UInt128Tests.swift in Sources */,
+				OBJ_735 /* UInt256Tests.swift in Sources */,
+				OBJ_736 /* UInt512Tests.swift in Sources */,
+				OBJ_737 /* UUIDTests.swift in Sources */,
+				OBJ_738 /* UnitIdentifierTests.swift in Sources */,
+				OBJ_739 /* XCTest.swift in Sources */,
+				OBJ_740 /* iBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Bluetooth::BluetoothTests" /* BluetoothTests */;
+			targetProxy = FB872EB820DFBB3200200DAF /* PBXContainerItemProxy */;
+		};
+		OBJ_743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Bluetooth::Bluetooth" /* Bluetooth */;
+			targetProxy = FB872EB720DFBB3000200DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Bluetooth.xcodeproj/Bluetooth_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Bluetooth;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Bluetooth;
+			};
+			name = Debug;
+		};
+		OBJ_370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Bluetooth.xcodeproj/Bluetooth_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Bluetooth;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Bluetooth;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Bluetooth.xcodeproj/BluetoothTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = BluetoothTests;
+			};
+			name = Debug;
+		};
+		OBJ_715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Bluetooth.xcodeproj/BluetoothTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = BluetoothTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_368 /* Build configuration list for PBXNativeTarget "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_369 /* Debug */,
+				OBJ_370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_702 /* Build configuration list for PBXNativeTarget "BluetoothPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_703 /* Debug */,
+				OBJ_704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_708 /* Build configuration list for PBXAggregateTarget "BluetoothPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_709 /* Debug */,
+				OBJ_710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_713 /* Build configuration list for PBXNativeTarget "BluetoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_714 /* Debug */,
+				OBJ_715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

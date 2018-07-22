@@ -43,7 +43,7 @@ public struct GAPServiceData16BitUUID: GAPData {
         let bytes = UInt16(littleEndian: uuid).bytes
         let data = Data([bytes.0, bytes.1])
         
-        return serviceData.reduce(data, { $0.0 + [$0.1] })
+        return serviceData.reduce(data, { $0 + [$1] })
     }
 }
 

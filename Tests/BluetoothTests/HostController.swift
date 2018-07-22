@@ -15,7 +15,12 @@ internal final class TestHostController: BluetoothHostControllerInterface {
     /// All controllers on the host.
     static var controllers: [TestHostController] { return [TestHostController()] }
     
-    init(address: Address = .any) {
+    static var `default`: TestHostController? {
+
+        return controllers.first
+    }
+
+     init(address: Address = .any) {
         
         self.address = address
         self.log = { print("TestHostController: ", $0) }

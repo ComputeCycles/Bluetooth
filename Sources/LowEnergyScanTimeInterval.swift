@@ -37,7 +37,7 @@ public struct LowEnergyScanTimeInterval: RawRepresentable, Equatable, Comparable
     }
     
     // Private, unsafe
-    init(_ rawValue: UInt16) {
+    public init(_ rawValue: UInt16) {
         self.rawValue = rawValue
     }
     

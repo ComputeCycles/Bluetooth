@@ -32,7 +32,7 @@ public struct GAPTransportDiscoveryBlock {
     public var data: Data {
         
         let data = Data([organizationID, flags.rawValue, dataLength])
-        return transportData.reduce(data, { $0.0 + [$0.1] })
+        return transportData.reduce(data, { $0 + [$1] })
     }
     
 }
@@ -109,7 +109,7 @@ public struct GAPTransportDiscoveryData: GAPData {
     
     public var data: Data {
         
-        return blocks.reduce(Data([code]), { $0.0 + $0.1.data })
+        return blocks.reduce(Data([code]), { $0 + $1.data })
     }
     
 }

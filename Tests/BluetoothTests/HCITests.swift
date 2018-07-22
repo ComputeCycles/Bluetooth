@@ -243,7 +243,7 @@ final class HCITests: XCTestCase {
         // HCI error
         XCTAssertTrue(HCIError.unknownCommand.description == "Unknown HCI Command")
         
-        let errors = (UInt8.min ... .max).flatMap({ HCIError(rawValue: $0) })
+        let errors = (UInt8.min ... .max).compactMap({ HCIError(rawValue: $0) })
         
         for error in errors {
             

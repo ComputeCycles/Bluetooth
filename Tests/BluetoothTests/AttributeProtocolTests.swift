@@ -47,7 +47,7 @@ final class AttributeProtocolTests: XCTestCase {
         XCTAssertEqual(ATTError.invalidHandle.errorDescription, "The attribute handle given was not valid on this server.")
         XCTAssertEqual(ATTError.invalidHandle.description, ATTError.invalidHandle.name)
         
-        let errors = (1 ... .max).flatMap { ATTError(rawValue: $0) }
+        let errors = (1 ... .max).compactMap { ATTError(rawValue: $0) }
         XCTAssert(errors.count == 0x11)
         
         for error in errors {

@@ -55,7 +55,7 @@ public struct GATTDatabase {
     /// Number of attributes in the database.
     public var count: Int {
         
-        return attributeGroups.reduce(0) { $0.0 + $0.1.attributes.count }
+        return attributeGroups.reduce(0) { $0 + $1.attributes.count }
     }
     
     /// Returns the last attribute in the database.

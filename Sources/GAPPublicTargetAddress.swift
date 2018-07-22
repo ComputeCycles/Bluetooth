@@ -52,7 +52,7 @@ public struct GAPPublicTargetAddress: GAPData {
     
     public var data: Data {
         
-        return addresses.reduce(Data(), { $0.0 + $0.1.data })
+        return addresses.reduce(Data(), { $0 + $1.data })
     }
     
 }

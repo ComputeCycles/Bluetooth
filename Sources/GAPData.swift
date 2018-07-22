@@ -66,7 +66,7 @@ internal struct Bit16UUIDList {
     
     public var data: Data {
         
-        return uuids.reduce(Data(), { $0.0 + [$0.1.littleEndian.bytes.0, $0.1.littleEndian.bytes.1] })
+        return uuids.reduce(Data(), { $0 + [$1.littleEndian.bytes.0, $1.littleEndian.bytes.1] })
     }
 }
 
@@ -103,7 +103,7 @@ internal struct Bit32UUIDList {
     
     public var data: Data {
         
-        return uuids.reduce(Data(), { $0.0 + [$0.1.littleEndian.bytes.0, $0.1.littleEndian.bytes.1, $0.1.littleEndian.bytes.2, $0.1.littleEndian.bytes.3] })
+        return uuids.reduce(Data(), { $0 + [$1.littleEndian.bytes.0, $1.littleEndian.bytes.1, $1.littleEndian.bytes.2, $1.littleEndian.bytes.3] })
     }
 }
 
@@ -140,7 +140,7 @@ internal struct Bit128UUIDList {
     
     public var data: Data {
         
-        return uuids.reduce(Data(), { $0.0 + [$0.1.littleEndian.bytes.0, $0.1.littleEndian.bytes.1, $0.1.littleEndian.bytes.2, $0.1.littleEndian.bytes.3, $0.1.littleEndian.bytes.4, $0.1.littleEndian.bytes.5, $0.1.littleEndian.bytes.6, $0.1.littleEndian.bytes.7, $0.1.littleEndian.bytes.8, $0.1.littleEndian.bytes.9, $0.1.littleEndian.bytes.10, $0.1.littleEndian.bytes.11, $0.1.littleEndian.bytes.12, $0.1.littleEndian.bytes.13, $0.1.littleEndian.bytes.14, $0.1.littleEndian.bytes.15] })
+        return uuids.reduce(Data(), { $0 + [$1.littleEndian.bytes.0, $1.littleEndian.bytes.1, $1.littleEndian.bytes.2, $1.littleEndian.bytes.3, $1.littleEndian.bytes.4, $1.littleEndian.bytes.5, $1.littleEndian.bytes.6, $1.littleEndian.bytes.7, $1.littleEndian.bytes.8, $1.littleEndian.bytes.9, $1.littleEndian.bytes.10, $1.littleEndian.bytes.11, $1.littleEndian.bytes.12, $1.littleEndian.bytes.13, $1.littleEndian.bytes.14, $1.littleEndian.bytes.15] })
     }
 }
 
@@ -160,7 +160,7 @@ public struct GAPDataElement {
     
     public init(_ data: GAPData) {
         
-        self.type = type(of: data).dataType
+        self.type = Swift.type(of: data).dataType
         self.value = data.data
         
         assert(value.count <= Int(UInt8.max))

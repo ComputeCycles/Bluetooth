@@ -167,7 +167,7 @@ public struct BitMaskOptionSet <Element: BitMaskOption>: RawRepresentable {
     
     public var count: Int {
         
-        return Element.all.reduce(0, { $0.0 + ($0.1.isContained(in: rawValue) ? 1 : 0) })
+        return Element.all.reduce(0, { $0 + ($1.isContained(in: rawValue) ? 1 : 0) })
     }
     
     public var isEmpty: Bool {
@@ -213,7 +213,7 @@ extension BitMaskOptionSet: CustomStringConvertible {
     
     public var description: String {
         
-        get { return set.sorted(by: { $0.0.rawValue < $0.1.rawValue }).description }
+        get { return set.sorted(by: { $0.rawValue < $1.rawValue }).description }
     }
 }
 
