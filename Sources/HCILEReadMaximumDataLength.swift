@@ -116,9 +116,9 @@ public struct HCILEReadMaximumDataLength: HCICommandReturnParameter { //HCI_LE_R
         }
         
         // Hashable
-        public var hashValue: Int {
+        public func hash(into hasher: inout Hasher) {
             
-            return Int(rawValue)
+            hasher.combine(rawValue)
         }
     }
     
@@ -162,9 +162,9 @@ public struct HCILEReadMaximumDataLength: HCICommandReturnParameter { //HCI_LE_R
         }
         
         // Hashable
-        public var hashValue: Int {
+        public func hash(into hasher: inout Hasher) {
             
-            return Int(rawValue)
+            hasher.combine(rawValue)
         }
     }
 }

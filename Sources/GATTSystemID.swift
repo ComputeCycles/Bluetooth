@@ -125,9 +125,9 @@ extension GATTSystemID: Equatable {
 
 extension GATTSystemID: Hashable {
     
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return rawValue.hashValue
+        hasher.combine(rawValue)
     }
 }
 

@@ -54,8 +54,8 @@ public struct LowEnergyScanTimeInterval: RawRepresentable, Equatable, Comparable
     }
     
     // Hashable
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return Int(rawValue)
+        hasher.combine(rawValue)
     }
 }

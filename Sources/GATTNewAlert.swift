@@ -94,7 +94,7 @@ extension GATTNewAlert: Equatable {
 public extension GATTNewAlert {
     
     /// Alert textual information.
-    public struct Information: RawRepresentable {
+    struct Information: RawRepresentable {
         
         /// The minimum length of “UTF-8 string” is 0 octets and maximum length of “UTF-8 string” is 18 octets.
         internal static let length = (min: 0, max: 18)

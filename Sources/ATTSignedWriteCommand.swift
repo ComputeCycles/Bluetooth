@@ -23,7 +23,7 @@ public struct ATTSignedWriteCommand: ATTProtocolDataUnit {
     
     /// The value to be written to the attribute
     public var value: Data
-    
+
     /// Authentication signature for the Attribute Upload, Attribute Handle and Attribute Value Parameters.
     public var signature: Signature
     
@@ -42,7 +42,7 @@ public extension ATTSignedWriteCommand {
     /// Minimum length
     private static var minimumLength: Int { return 1 + 2 + 0 + 12 }
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard data.count >= type(of: self).minimumLength,
             type(of: self).validateOpcode(data)
@@ -73,7 +73,7 @@ public extension ATTSignedWriteCommand {
                           data[data.count - 1])
     }
     
-    public var data: Data {
+    var data: Data {
         
         let handleBytes = handle.littleEndian.bytes
         

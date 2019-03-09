@@ -39,7 +39,7 @@ public extension ATTFindByTypeResponse {
     /// Minimum length.
     internal static var minimumLength: Int { return 1 + HandlesInformation.length }
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard data.count >= type(of: self).minimumLength,
             type(of: self).validateOpcode(data)
@@ -64,7 +64,7 @@ public extension ATTFindByTypeResponse {
         self.init(handles: handles)
     }
     
-    public var data: Data {
+    var data: Data {
         
         return Data(self)
     }
@@ -94,7 +94,7 @@ public extension ATTFindByTypeResponse {
     /// a *Handles Information* shall be returned.
     /// The *Found Attribute Handle* shall be set to the handle of the attribute that has the exact attribute type
     /// and attribute value from the *Find By Type Value Request*.
-    public struct HandlesInformation: Equatable {
+    struct HandlesInformation: Equatable {
         
         /// Found Attribute Handle
         public let foundAttribute: UInt16

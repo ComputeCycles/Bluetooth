@@ -63,8 +63,8 @@ extension GATTBatteryLevel: CustomStringConvertible {
 
 extension GATTBatteryLevel: Hashable {
     
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return Int(level.rawValue)
+        hasher.combine(level.rawValue)
     }
 }

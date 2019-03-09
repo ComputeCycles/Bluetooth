@@ -36,7 +36,7 @@ public struct ATTPrepareWriteResponse: ATTProtocolDataUnit, Equatable {
 
 public extension ATTPrepareWriteResponse {
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard data.count >= 5,
             type(of: self).validateOpcode(data)
@@ -47,7 +47,7 @@ public extension ATTPrepareWriteResponse {
         self.partValue = data.suffixCheckingBounds(from: 5)
     }
     
-    public var data: Data {
+    var data: Data {
         
         return Data(self)
     }

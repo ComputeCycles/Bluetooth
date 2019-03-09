@@ -52,9 +52,9 @@ extension SFloat: Equatable {
 
 extension SFloat: Hashable {
     
-    public var hashValue: Int {
-        
-        return Int(builtin.hashValue)
+    public func hash(into hasher: inout Hasher) {
+
+        hasher.combine(builtin.hashValue)
     }
 }
 

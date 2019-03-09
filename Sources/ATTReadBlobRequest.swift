@@ -34,7 +34,7 @@ public extension ATTReadBlobRequest {
     
     internal static var length: Int { return 1 + 2 + 2 }
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard data.count == type(of: self).length,
             type(of: self).validateOpcode(data)
@@ -44,7 +44,7 @@ public extension ATTReadBlobRequest {
         self.offset = UInt16(littleEndian: UInt16(bytes: (data[3], data[4])))
     }
     
-    public var data: Data {
+    var data: Data {
         
         return Data(self)
     }

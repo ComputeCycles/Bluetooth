@@ -177,7 +177,6 @@ extension LowEnergyAdvertisingData: Equatable {
 
 extension LowEnergyAdvertisingData: Hashable {
     
-    #if swift(>=4.2)
     public func hash(into hasher: inout Hasher) {
         
         length.hash(into: &hasher)
@@ -185,12 +184,6 @@ extension LowEnergyAdvertisingData: Hashable {
             self[$0].hash(into: &hasher)
         }
     }
-    #else
-    public var hashValue: Int {
-    
-        return data.hashValue
-    }
-    #endif
 }
 
 // MARK: - CustomStringConvertible
@@ -223,12 +216,12 @@ extension LowEnergyAdvertisingData: ExpressibleByArrayLiteral {
 
 public extension LowEnergyAdvertisingData {
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         self.init(data)
     }
     
-    public var data: Data {
+    var data: Data {
         
         var data = Data(capacity: count)
         data += self

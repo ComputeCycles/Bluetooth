@@ -43,7 +43,7 @@ public struct GATTAlertCategoryBitMask: GATTCharacteristic {
 
 public extension GATTAlertCategoryBitMask {
     
-    public enum Category: UInt64, BitMaskOption {
+    enum Category: UInt64, BitMaskOption {
         
         // 1st byte
         

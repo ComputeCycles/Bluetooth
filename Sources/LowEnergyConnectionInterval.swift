@@ -50,8 +50,8 @@ public struct LowEnergyConnectionInterval: RawRepresentable, Equatable, Hashable
     }
     
     // Hashable
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return Int(rawValue)
+        hasher.combine(rawValue)
     }
 }

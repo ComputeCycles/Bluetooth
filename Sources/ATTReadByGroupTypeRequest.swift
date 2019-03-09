@@ -41,7 +41,7 @@ public struct ATTReadByGroupTypeRequest: ATTProtocolDataUnit, Equatable {
 
 public extension ATTReadByGroupTypeRequest {
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard let length = Length(rawValue: data.count),
             Swift.type(of: self).validateOpcode(data)
@@ -59,7 +59,7 @@ public extension ATTReadByGroupTypeRequest {
         }
     }
     
-    public var data: Data {
+    var data: Data {
         
         return Data(self)
     }

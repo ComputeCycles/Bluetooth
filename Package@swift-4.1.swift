@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:4.1
 import PackageDescription
 
 let package = Package(name: "Bluetooth",
@@ -12,4 +12,4 @@ let package = Package(name: "Bluetooth",
                         .target(name: "Bluetooth", path: "./Sources"),
                         .testTarget(name: "BluetoothTests", dependencies: ["Bluetooth"])
                       ],
-                      swiftLanguageVersions: [.v4, .v4_2, .v5])
+                      swiftLanguageVersions: [4])

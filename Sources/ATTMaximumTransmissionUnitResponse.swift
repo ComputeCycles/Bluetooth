@@ -31,7 +31,7 @@ public extension ATTMaximumTransmissionUnitResponse {
     
     internal static var length: Int { return 3 }
     
-    public init?(data: Data) {
+    init?(data: Data) {
         
         guard data.count == type(of: self).length,
             type(of: self).validateOpcode(data)
@@ -40,7 +40,7 @@ public extension ATTMaximumTransmissionUnitResponse {
         self.serverMTU = UInt16(littleEndian: UInt16(bytes: (data[1], data[2])))
     }
     
-    public var data: Data {
+    var data: Data {
         
         return Data(self)
     }

@@ -35,9 +35,9 @@ public struct LowEnergyConnectionLatency: RawRepresentable, Equatable, Hashable,
     }
     
     // HashableUInt12
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return Int(rawValue)
+        hasher.combine(rawValue)
     }
     
     // Comparable

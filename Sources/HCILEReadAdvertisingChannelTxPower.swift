@@ -89,9 +89,9 @@ public struct HCILEReadAdvertisingChannelTxPower: HCICommandReturnParameter { //
         }
         
         // Hashable
-        public var hashValue: Int {
+        public func hash(into hasher: inout Hasher) {
             
-            return Int(rawValue)
+            hasher.combine(rawValue)
         }
     }
 }
