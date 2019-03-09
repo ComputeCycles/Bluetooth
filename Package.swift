@@ -12,4 +12,4 @@ let package = Package(name: "Bluetooth",
                         .target(name: "Bluetooth", path: "./Sources"),
                         .testTarget(name: "BluetoothTests", dependencies: ["Bluetooth"])
                       ],
-                      swiftLanguageVersions: [.v4, .v4_2, .v5])
+                      swiftLanguageVersions: [.v5])
