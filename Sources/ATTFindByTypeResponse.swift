@@ -58,7 +58,7 @@ public extension ATTFindByTypeResponse {
         let handles = handleIndices.map { (index: Int) -> HandlesInformation in
             
             let byteIndex = 1 + (index * handleLength)
-            return HandlesInformation(data.subdataNoCopy(in: byteIndex ..< byteIndex + handleLength))
+            return HandlesInformation(data.subdataNoCopy(in: byteIndex ..< (byteIndex + handleLength)))
         }
         
         self.init(handles: handles)

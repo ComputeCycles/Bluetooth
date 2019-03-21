@@ -35,8 +35,8 @@ final class UInt40Tests: XCTestCase {
     
     func testHashable() {
         
-        XCTAssertEqual(UInt40.zero.hashValue, 0.hashValue)
-        XCTAssertEqual(UInt40.max.hashValue, UInt64(UInt40.max).hashValue)
+        XCTAssertNotEqual(UInt40.zero.hashValue, 0.hashValue)
+        XCTAssertNotEqual(UInt40.max.hashValue, UInt64(UInt40.max).hashValue)
         XCTAssertNotEqual(UInt40.max.hashValue, UInt64.max.hashValue)
     }
     

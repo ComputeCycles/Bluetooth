@@ -12,19 +12,8 @@ internal extension Data {
     
     #if swift(>=5.0)
     func subdataNoCopy(in range: Range<Int>) -> Data {
-        
-        let result = try? withUnsafeBytes { (buf: UnsafeRawBufferPointer) throws -> Result<UnsafeMutableRawPointer, Error> in
-            guard let p = buf.baseAddress else {
-                return Result<UnsafeMutableRawPointer, Error>.failure( NSError(domain: "domain", code: 1000, userInfo: [:]) )
-            }
-            return Result { UnsafeMutableRawPointer(mutating: p).advanced(by: range.lowerBound) }
-        }
-        switch result {
-        case .success(let pointer)?:
-            return Data(bytesNoCopy: pointer, count: range.count, deallocator: .none)
-        default:
-            return Data()
-        }
+        let retVal = self.advanced(by: range.lowerBound)[0 ..< (range.endIndex - range.lowerBound)]
+        return retVal
     }
     #elseif swift(>=4.2)
     func subdataNoCopy(in range: Range<Int>) -> Data {

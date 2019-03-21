@@ -46,6 +46,18 @@ extension BluetoothUUID: CustomStringConvertible {
 
 extension BluetoothUUID: Hashable {
     
+    public var hashValue: Int {
+        
+        switch self {
+            
+        case let .bit16(value): return value.hashValue
+            
+        case let .bit32(value): return value.hashValue
+            
+        case let .bit128(value): return value.hashValue
+        }
+    }
+
     public func hash(into hasher: inout Hasher) {
         
         switch self {
